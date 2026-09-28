@@ -1,0 +1,17 @@
+# Solana validator relationships, keyed by vote account.
+# Everything in this file is public. Vote accounts only. Format and rules: README.md
+#
+# Examples (copy, uncomment, fill in):
+#
+# [[group]]
+# anchor = "ANCHOR_VOTE_ACCOUNT"
+# votes = ["MEMBER_VOTE_ACCOUNT", "MEMBER_VOTE_ACCOUNT"]
+# [group.metadata]
+# remarks = "who runs them"
+# source = "https://..."
+#
+# [[validator]]
+# vote = "VOTE_ACCOUNT"
+# [validator.metadata]
+# remarks = "what is known"
+# source = "https://..."
