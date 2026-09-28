@@ -22,3 +22,7 @@ votes = ["votem3UdGx5xWFbY9EFbyZ1X2pBuswfR5yd2oB3JAaj"]
 [group.metadata]
 remarks = "During version upgrades each moves for 0.5-4h to the same spare host 5.199.164.126, one after the other; significant DynoSOL stake (~127k and ~153k SOL)"
 source = "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=5.199.164.126"
+source_stake = [
+  "https://get.art3mis.cloud/api/history?event_type=pool_validator_active_stake_lamports_change&pool_name=dynosol&validator=Ha1iade1AH3B12K9SccfWoPdFtQKKQsj2ZyWwxcjqJJU&epoch=1043",
+  "https://get.art3mis.cloud/api/history?event_type=pool_validator_active_stake_lamports_change&pool_name=dynosol&validator=icex1C6pnZxznQWiHZZANjGU8nZ8kNquFnjyY7XXrXE&epoch=1043",
+]
