@@ -7,22 +7,25 @@
 # anchor = "ANCHOR_VOTE_ACCOUNT"
 # votes = ["MEMBER_VOTE_ACCOUNT", "MEMBER_VOTE_ACCOUNT"]
 # [group.metadata]
-# remarks = "who runs them"
-# source = "https://..."
+# info = "one line"
+# details = "longer explanation"
+# sources = ["https://..."]
+# credit = "who found it"
 #
 # [[validator]]
 # vote = "VOTE_ACCOUNT"
 # [validator.metadata]
-# remarks = "what is known"
-# source = "https://..."
+# info = "one line"
+# sources = ["https://..."]
 
 [[group]]
 anchor = "Ha1VoTEPWFQp1wZjbQhBNXJftuHvimu1ruzF3xKYRPDQ"
 votes = ["votem3UdGx5xWFbY9EFbyZ1X2pBuswfR5yd2oB3JAaj"]
 [group.metadata]
-remarks = "During version upgrades each moves for 0.5-4h to the same spare host 5.199.164.126, one after the other; significant DynoSOL stake (~127k and ~153k SOL)"
-source = "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=5.199.164.126"
-source_stake = [
+info = "Same operator: both move to one spare host during version upgrades"
+details = "During version upgrades each moves for 0.5-4h to 5.199.164.126, one after the other. Significant DynoSOL stake on both (~127k and ~153k SOL, epoch 1043)"
+sources = [
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=5.199.164.126",
   "https://get.art3mis.cloud/api/history?event_type=pool_validator_active_stake_lamports_change&pool_name=dynosol&validator=Ha1iade1AH3B12K9SccfWoPdFtQKKQsj2ZyWwxcjqJJU&epoch=1043",
   "https://get.art3mis.cloud/api/history?event_type=pool_validator_active_stake_lamports_change&pool_name=dynosol&validator=icex1C6pnZxznQWiHZZANjGU8nZ8kNquFnjyY7XXrXE&epoch=1043",
 ]
@@ -63,23 +66,16 @@ votes = [
   "sTach38ebT8jnGH8i2D1g8NDAS6An19whVMnSSWPXt4",  # Hydex
 ]
 [group.metadata]
-remarks = "Withdraw authorities of all 32 are Squads multisigs sharing signer keys; 27 also run on the same hosts at overlapping times"
-signer_keys = [
-  "2fquRXDqK1YLLC8E7z74CtLevw1ZiTtd6LG3L2bQsZdM",
-  "Gkb8wxgqhixY3K8NNrM5KZuSY5yFftud8Jp2D5KMXLPQ",
-  "GQJUoajR3gHfXJSSaTviAvRrMTUTmB9jiGE672KcFsUh",
-  "73PYe5P4a3r2NgvSCqs7hgLq2aMXr3JSkUos3FSAFMSm",
-  "AnQMxshkiayxvHbfUmzv3hzR5yhAkXnRLUarEavWXBF3",
-]
-key_links = [
-  "2fquRXDq, Gkb8wxgq, GQJUoajR: signers on 30 of the 32 multisigs",
-  "73PYe5P4: signer with 2fquRXDq and Gkb8wxgq on Charity Soul",
-  "73PYe5P4 + AnQMxshk: Decentra's multisig (2-of-2)",
-  "AnQMxshk: signer on Nova Consortium",
-]
-credit = "Multisig link first reported by Andrei Vacariu (https://x.com/andreivacariu_), who reports 41 validators; 32 independently confirmed here by @a3mc"
-source = [
+info = "One operator: withdraw authority of all 32 held through multisigs with shared signer keys"
+details = "Squads multisigs share signer keys 2fquRXDq, Gkb8wxgq, GQJUoajR (30 of 32); 73PYe5P4 and AnQMxshk link Charity Soul, Decentra and Nova Consortium. 27 also ran on the same hosts at overlapping times"
+sources = [
+  "https://explorer.solana.com/address/2fquRXDqK1YLLC8E7z74CtLevw1ZiTtd6LG3L2bQsZdM",
+  "https://explorer.solana.com/address/Gkb8wxgqhixY3K8NNrM5KZuSY5yFftud8Jp2D5KMXLPQ",
+  "https://explorer.solana.com/address/GQJUoajR3gHfXJSSaTviAvRrMTUTmB9jiGE672KcFsUh",
+  "https://explorer.solana.com/address/73PYe5P4a3r2NgvSCqs7hgLq2aMXr3JSkUos3FSAFMSm",
+  "https://explorer.solana.com/address/AnQMxshkiayxvHbfUmzv3hzR5yhAkXnRLUarEavWXBF3",
   "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=67.213.113.101",
   "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=72.46.84.115",
   "https://gossip.solstack.app",
 ]
+credit = "Multisig link first reported by Andrei Vacariu (x.com/andreivacariu_); 32 of his 41 confirmed by @a3mc"
