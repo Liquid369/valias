@@ -14,32 +14,47 @@ after (its on-chain name is used); `votes` lists the other members.
 anchor = "ANCHOR_VOTE_ACCOUNT"
 votes = ["MEMBER_VOTE_ACCOUNT", "MEMBER_VOTE_ACCOUNT"]
 [group.metadata]
-remarks = "operator and evidence summary"
-source = "https://..."
+info = "One operator: shared withdraw authority"
+details = "What was observed and how it links the members"
+sources = ["https://..."]
+credit = "Who found it"
 ```
 
-`[[validator]]`: remarks about one validator. If it is also in a group, its keys override the
-group's keys of the same name.
+`[[validator]]`: a note about one validator. If it is also in a group, its fields override the
+group's fields of the same name.
 
 ```toml
 [[validator]]
 vote = "VOTE_ACCOUNT"
 [validator.metadata]
-remarks = "..."
-source = "https://..."
+info = "..."
+sources = ["https://..."]
 ```
+
+## Metadata
+
+Exactly these fields, nothing else:
+
+| Field | Required | Content |
+|---|---|---|
+| `info` | yes | one line, 120 characters max |
+| `details` | no | 500 characters max |
+| `sources` | no | list of links that let anyone verify the claim |
+| `credit` | no | who found it, 120 characters max |
+
+Plain text only, no control characters.
 
 ## Rules
 
 - Vote accounts only, not identity keys.
 - A vote account belongs to at most one group. Do not repeat the anchor in `votes`.
-- `metadata`: a few short text fields. Always include `source`: a link, or how the claim can be verified.
+- State only what can be verified from the listed sources.
 - No personal data. Everything in this file is public.
 
 ## Contributing
 
-Open a pull request that edits `alias.toml`, one entity per pull request. State the evidence in
-the description. Unverifiable claims are not merged.
+Open a pull request that edits `alias.toml`, one entity per pull request. Explain in the
+description how the sources support the claim. Unverifiable claims are not merged.
 
 ## License
 
