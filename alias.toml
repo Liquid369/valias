@@ -26,3 +26,60 @@ source_stake = [
   "https://get.art3mis.cloud/api/history?event_type=pool_validator_active_stake_lamports_change&pool_name=dynosol&validator=Ha1iade1AH3B12K9SccfWoPdFtQKKQsj2ZyWwxcjqJJU&epoch=1043",
   "https://get.art3mis.cloud/api/history?event_type=pool_validator_active_stake_lamports_change&pool_name=dynosol&validator=icex1C6pnZxznQWiHZZANjGU8nZ8kNquFnjyY7XXrXE&epoch=1043",
 ]
+
+[[group]]
+anchor = "CiTYUYPAPHdcri5yEfsmqVcs54J6j8X1QaiFLgYqMVe"  # Phase Stake
+votes = [
+  "hy1oJTV2kX9acsqpwk7hbteqXFw9VDbWvbxoamFEufW",  # Hylo
+  "radYEig9KGrMTMWbWRFV7LStotQbnLgPaEFHVDsudQz",  # Radiants
+  "phz34EcgWRCT9otPzRS2JtSzVHxQJk4SovqJvV1TQk8",  # YIELD
+  "unRgBLTLNXdBmenHXNPAg3AMn3KWcV3Mk4eoZBmTrdk",  # Unruggable
+  "dcntrKBwh8j5yL62Eg96Z5QjJWv3UXxMu4rqL82w6Cb",  # Decentra
+  "novaoLcuVHSudkW3Cphuhiv82vspN5qzinGCtEbwQxz",  # Nova Consortium
+  "magiCChVWbehZ1e3XqQfLh164yUfQ8LnRWgSP9i4oFp",  # Magic Eden Validator
+  "b1uei1YN8YVb3qHy2JitBx4Fq9nAatLQFcNbnk6Ex8p",  # Blue Sky
+  "axyQeKp44XqUnvC1jVHoeuAJ3j8wVnGeWtddeAcNYcF",  # Somos Validator
+  "goJiRADNdmfnJ4iWEyft7KaYMPTVsRba2Ee1akDEBXb",  # Gojira
+  "hxVjzDmta9TuN1gM981TRKnfwG2uZ9TQDGwSCs3uDow",  # Suzuko Stake
+  "chrtyiAw8suFRvS7rTcfgcDyNu49bGPNZ2fjSPzNPFr",  # Charity Soul
+  "dedxrPfNqPKBRmUyP9LDkaitpQzU6PD44jA6GP9Ndhk",  # Ded Monkes
+  "mythxna3hpzXSbaseyR12vu5Vvym1HxS92eCgXLvY7w",  # Mythx
+  "bay3rQMjiLPy6Nvi7tfNeVK26inBCxf88hKYyeKy64H",  # Bay3
+  "fuyugZxM5S4NyV3ZYoc6ebs3fmRTrZ3X27MKCFvHpVD",  # Kisetsu Stake
+  "YE111yizdzBA7JQKMXjy9VSx1shKAczUbs3b3e6vKQH",  # Mellow Yellow
+  "pine9rHVDS1pjwdhYkx3vRyaAyRd5KPDKXZEXAqvxcX",  # Pine Analytics
+  "G1EAMrJcvzs5SwqAQRgDTjYBEGrxxJVwNS7qiUtB3akg",  # Gleam
+  "nateBZg7oHVPLB2samBLkKvfzedU3ALZBexMFPMKjn1",  # Epoch.Day
+  "ExCHgw3CfdZTbsrDA2phe95jswV2bDr5oSJwyKJKzEdN",  # DSM-01
+  "adrePWHJJQNNuMfK3QrBKXDZZuRFPRjhovMMeSr3Drz",  # Systems
+  "vnd1jskPHR2gfMtgTtq6xCwANrAiNbQTKgVBAJHnMke",  # Vandal
+  "rapxbkwBSSvtqRFrsY83f51oUuZNuVXci74MuzYhiCy",  # Raposa Coffee
+  "te1exfYnykh2cFGCwGSLQu26Dpr8n2PozvBqH5Eoi3K",  # Telemetry
+  "jntrMCSkeNagaMM437fhZxLYbFJh6pvj68bQDZx2pXf",  # Janitor
+  "roYL9AoyuGae7uEAErzZhPSSxnLLZU4TNx8wmwCk77r",  # Royal
+  "4269foF8CYyT8SynFSYHiKFzHva5YL6PoAQj9pH3mQmh",  # Mice Stakin'
+  "dstqVmt3cDH43Ux2SeTY2Hza1eVW6pwGLwehWCLfuPd",  # Dust Eleven
+  "TAPEtHVPxwEGgjZtEErkE4cSG7f2c22BZtdVvYGN5D3",  # Tapedrive
+  "sTach38ebT8jnGH8i2D1g8NDAS6An19whVMnSSWPXt4",  # Hydex
+]
+[group.metadata]
+remarks = "Withdraw authorities of all 32 are Squads multisigs sharing signer keys; 27 also run on the same hosts at overlapping times"
+signer_keys = [
+  "2fquRXDqK1YLLC8E7z74CtLevw1ZiTtd6LG3L2bQsZdM",
+  "Gkb8wxgqhixY3K8NNrM5KZuSY5yFftud8Jp2D5KMXLPQ",
+  "GQJUoajR3gHfXJSSaTviAvRrMTUTmB9jiGE672KcFsUh",
+  "73PYe5P4a3r2NgvSCqs7hgLq2aMXr3JSkUos3FSAFMSm",
+  "AnQMxshkiayxvHbfUmzv3hzR5yhAkXnRLUarEavWXBF3",
+]
+key_links = [
+  "2fquRXDq, Gkb8wxgq, GQJUoajR: signers on 30 of the 32 multisigs",
+  "73PYe5P4: signer with 2fquRXDq and Gkb8wxgq on Charity Soul",
+  "73PYe5P4 + AnQMxshk: Decentra's multisig (2-of-2)",
+  "AnQMxshk: signer on Nova Consortium",
+]
+credit = "Multisig link first reported by Andrei Vacariu (https://x.com/andreivacariu_), who reports 41 validators; 32 independently confirmed here by @a3mc"
+source = [
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=67.213.113.101",
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=72.46.84.115",
+  "https://gossip.solstack.app",
+]
