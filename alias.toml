@@ -7,6 +7,7 @@
 # anchor = "ANCHOR_VOTE_ACCOUNT"
 # votes = ["MEMBER_VOTE_ACCOUNT", "MEMBER_VOTE_ACCOUNT"]
 # [group.metadata]
+# level = "warning"
 # info = "one line"
 # details = "longer explanation"
 # sources = ["https://..."]
@@ -15,6 +16,7 @@
 # [[validator]]
 # vote = "VOTE_ACCOUNT"
 # [validator.metadata]
+# level = "note"
 # info = "one line"
 # sources = ["https://..."]
 
@@ -22,6 +24,7 @@
 anchor = "Ha1VoTEPWFQp1wZjbQhBNXJftuHvimu1ruzF3xKYRPDQ"
 votes = ["votem3UdGx5xWFbY9EFbyZ1X2pBuswfR5yd2oB3JAaj"]
 [group.metadata]
+level = "warning"
 info = "Same operator: both move to one spare host during version upgrades"
 details = "During version upgrades each moves for 0.5-4h to 5.199.164.126, one after the other. Significant DynoSOL stake on both (~127k and ~153k SOL, epoch 1043)"
 sources = [
@@ -66,6 +69,7 @@ votes = [
   "sTach38ebT8jnGH8i2D1g8NDAS6An19whVMnSSWPXt4",  # Hydex
 ]
 [group.metadata]
+level = "warning"
 info = "One operator: withdraw authority of all 32 held through multisigs with shared signer keys"
 details = "Squads multisigs share signer keys 2fquRXDq, Gkb8wxgq, GQJUoajR (30 of 32); 73PYe5P4 and AnQMxshk link Charity Soul, Decentra and Nova Consortium. 27 also ran on the same hosts at overlapping times"
 sources = [

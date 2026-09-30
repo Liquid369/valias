@@ -4,9 +4,9 @@ Hand-maintained dataset of Solana validator relationships, keyed by vote account
 
 ## Format
 
-One file: `alias.toml`. Two entry types.
+One file: `alias.toml`. Two entry types, each with its own metadata.
 
-`[[group]]`: validators operated by the same entity. `anchor` is the member the group is named
+`[[group]]`: validators linked to the same entity. `anchor` is the member the group is named
 after (its on-chain name is used); `votes` lists the other members.
 
 ```toml
@@ -14,19 +14,21 @@ after (its on-chain name is used); `votes` lists the other members.
 anchor = "ANCHOR_VOTE_ACCOUNT"
 votes = ["MEMBER_VOTE_ACCOUNT", "MEMBER_VOTE_ACCOUNT"]
 [group.metadata]
+level = "warning"
 info = "One operator: shared withdraw authority"
 details = "What was observed and how it links the members"
 sources = ["https://..."]
 credit = "Who found it"
 ```
 
-`[[validator]]`: a note about one validator. If it is also in a group, its fields override the
-group's fields of the same name.
+`[[validator]]`: an entry about one vote account. It is separate from any group the vote
+account belongs to and never changes the group's entry.
 
 ```toml
 [[validator]]
 vote = "VOTE_ACCOUNT"
 [validator.metadata]
+level = "note"
 info = "..."
 sources = ["https://..."]
 ```
@@ -37,12 +39,21 @@ Exactly these fields, nothing else:
 
 | Field | Required | Content |
 |---|---|---|
+| `level` | yes | `warning`, `info` or `note` |
 | `info` | yes | one line, 120 characters max |
 | `details` | no | 500 characters max |
 | `sources` | no | list of links that let anyone verify the claim |
 | `credit` | no | who found it, 120 characters max |
 
 Plain text only, no control characters.
+
+## Levels
+
+| Level | Use |
+|---|---|
+| `warning` | a negative finding, e.g. several validators under one hidden operator |
+| `info` | an informative fact |
+| `note` | a passive remark |
 
 ## Rules
 
