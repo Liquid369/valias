@@ -35,17 +35,19 @@ sources = ["https://..."]
 
 ## Metadata
 
-Exactly these fields, nothing else:
+Same fields for `[[group]]` and `[[validator]]` entries:
 
 | Field | Required | Content |
 |---|---|---|
-| `level` | yes | `warning`, `info` or `note` |
+| `level` | yes | `warning`, `info` or `note` (one lowercase word a-z, 16 max) |
 | `info` | yes | one line, 120 characters max |
-| `details` | no | 500 characters max |
-| `sources` | no | list of links that let anyone verify the claim |
+| `details` | no | one paragraph without line breaks, 500 characters max |
+| `sources` | no | non-empty list of `https://` links (300 characters max each) that let anyone verify the claim |
 | `credit` | no | who found it, 120 characters max |
+| any other | no | e.g. `website`: text or a non-empty list of texts, 500 characters max each; name in lowercase letters, digits and `_`, 32 max |
 
-Plain text only, no control characters.
+Plain text only: no control or invisible characters, no nested tables. At most 10 extra fields
+per entry and 20 items per list.
 
 ## Levels
 
@@ -59,6 +61,7 @@ Plain text only, no control characters.
 
 - Vote accounts only, not identity keys.
 - A vote account belongs to at most one group. Do not repeat the anchor in `votes`.
+- One `[[validator]]` entry per vote account.
 - State only what can be verified from the listed sources.
 - No personal data. Everything in this file is public.
 
