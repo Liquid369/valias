@@ -83,3 +83,1629 @@ sources = [
   "https://gossip.solstack.app",
 ]
 credit = "Multisig link first reported by Andrei Vacariu (x.com/andreivacariu_); 32 of his 41 confirmed by @a3mc"
+
+# Below: ART3MIS (bigbrother.art3mis.cloud), data read 2026-09-28.
+# Same machine = two staked identities on one IP at once, or a hand-off under an hour,
+# in BigBrother ip_change history. Shows who runs the box, not who owns the stake.
+# Signer and machine methods from Corvus Labs (gossip.solstack.app).
+# Evidence that doesn't fit a group's details is in [[validator]] notes as "Group <name>: ..."
+
+[[group]]
+anchor = "CcaHc2L43ZWjwCHART3oZoJvHLAe9hzT2DJNUpBzoTN1"  # Figment
+votes = [
+  "26pV97Ce83ZQ6Kz9XT4td8tdoUFPTng8Fb8gPyc53dJx",  # Ledger by Figment
+  "6jf9Hwx4ChqUpi8skCqmh7bnfTWXHXsqbfqAPHmSzPYc",  # Figment | Firedancer
+]
+[group.metadata]
+level = "warning"
+info = "Linked by website (2 of 3), first funder (2 of 3)"
+details = "Website figment.io in validator-info on 2 of 3 (all but Ledger by Figment). Identities first funded by Enm5ScgWN6SGL6eMh5xxYtTHGdpxH2kZ8PxeQ9JpALN3 on 2 of 3 (all but Figment) (Solscan Funded By)."
+sources = [
+  "https://get.art3mis.cloud/api/validators/Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
+  "https://get.art3mis.cloud/api/validators/HPJ2KUVgRnG889NyfEcUyZkGD1abrZxjZVmsYAjLZU1N",
+  "https://solscan.io/account/C8Bey3LKVJHVqN6xPTeW8WJfUgFQAeGNBpT4Rp99JP1k",
+  "https://solscan.io/account/HPJ2KUVgRnG889NyfEcUyZkGD1abrZxjZVmsYAjLZU1N",
+]
+credit = "ART3MIS (bigbrother.art3mis.cloud)"
+
+[[group]]
+anchor = "8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD"  # Bitwise Onchain Solutions
+votes = [
+  "AuGwcQWqWuNbnrkgERSp8VN6kZeJiM4AZuLMrwbkzg9m",  # Bitwise Onchain Solutions | Jito BAM
+  "Chorus6Kis8tFHA7AowrPMcRJk3LbApHTYpgSNXzY5KE",  # Bitwise Onchain Solutions 02
+  "CpfvLiiPALdzZTP3fUrALg2TXwEDSAknRh1sn5JCt9Sr",  # Ledger by Bitwise
+  "EogKVYgic8LKAuV1kR9nRqJaS5zpwCvSMfqoehzmAMpK",  # Bitwise Onchain Solutions Research
+]
+[group.metadata]
+level = "warning"
+info = "Linked by withdraw authority (2 of 5), website (4 of 5), first funder (3 of 5), machines (2 of 5)"
+details = "Withdraw authority JCkod8xUb83ejQ9pLq9tTDrpEQAuiWrcLWX6AS5gp2mp on 2 of 5: Bitwise Onchain Solutions 02, Bitwise Onchain Solutions Research. Website bitwiseinvestments.com in validator-info on 4 of 5 (all but Ledger by Bitwise). Same machine, 2 of 5: Bitwise Onchain Solutions | Jito BAM, Bitwise Onchain Solutions Research: identities on one IP at the same time, per ip_change history 2025-10 to 2026-09-28; busiest shared IP 79.127.239.96."
+sources = [
+  "https://explorer.solana.com/address/JCkod8xUb83ejQ9pLq9tTDrpEQAuiWrcLWX6AS5gp2mp",
+  "https://get.art3mis.cloud/api/validators/E1r4Psq84tHfQ6aPTvvDka4U3u8zPVD7gEUrH25RdxHL",
+  "https://get.art3mis.cloud/api/validators/GBQ2GvTzmjXMu97dr7WUnLKYTNim1aoZsYS53KYXAAAA",
+  "https://get.art3mis.cloud/api/validators/ChorusmmK7i1AxXeiTtQgQZhQNiXYU84ULeaYF1EH15n",
+  "https://get.art3mis.cloud/api/validators/2abwQG3v2xRemFxRszVHSfnjJNe9zu5X8duKgxjyLeaK",
+  "https://solscan.io/account/GBQ2GvTzmjXMu97dr7WUnLKYTNim1aoZsYS53KYXAAAA",
+  "https://solscan.io/account/LeDbQ99QT342j9S5YdyXLrsq2Gu3T3dMGajExdAuE3V",
+  "https://solscan.io/account/2abwQG3v2xRemFxRszVHSfnjJNe9zu5X8duKgxjyLeaK",
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=79.127.239.96",
+]
+credit = "ART3MIS (bigbrother.art3mis.cloud); same-machine method after Corvus Labs (gossip.solstack.app)"
+
+[[group]]
+anchor = "he1iusunGwqrNtafDtLdhsUQDFvo13z9sUa36PauBtk"  # Helius
+votes = [
+  "CzGLRXJXoDo9q86MpphPVNNsTgAxHvZfUfAiouWDH89M",
+]
+[group.metadata]
+level = "warning"
+info = "Same machines over time (all 2): on 64.130.57.215, at the same time"
+details = "Same machine, both: on 64.130.57.215 at the same time, per ip_change history 2025-10 to 2026-09-28."
+sources = [
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=64.130.57.215",
+]
+credit = "ART3MIS (bigbrother.art3mis.cloud); same-machine method after Corvus Labs (gossip.solstack.app)"
+
+[[group]]
+anchor = "KRAKEnMdmT4EfM8ykTFH6yLoCd5vNLcQvJwF66Y2dag"  # Kraken
+votes = [
+  "51JBzSTU5rAM8gLAVQKgp4WoZerQcSqWC7BitBzgUNAm",  # Kraken 2
+]
+[group.metadata]
+level = "warning"
+info = "Linked by withdraw authority (all 2), website (all 2)"
+details = "Withdraw authority BLk8y6Qbf3Wo8qhLVeaNxQSeAKJp1hU2t6yuZHvGTUXW on all 2. Withdraw authority BLk8y6Qb was first funded by CAo1dCGYrB6NhHh5xb1cGjUiu86iyCfMTENxgHumSve4 on 2024-11-07 (Solscan). Website kraken.com in validator-info on all 2."
+sources = [
+  "https://explorer.solana.com/address/BLk8y6Qbf3Wo8qhLVeaNxQSeAKJp1hU2t6yuZHvGTUXW",
+  "https://get.art3mis.cloud/api/validators/CAo1dCGYrB6NhHh5xb1cGjUiu86iyCfMTENxgHumSve4",
+  "https://get.art3mis.cloud/api/validators/krakeNd6ednDPEXxHAmoBs1qKVM8kLg79PvWF2mhXV1",
+  "https://solscan.io/account/BLk8y6Qbf3Wo8qhLVeaNxQSeAKJp1hU2t6yuZHvGTUXW",
+]
+credit = "ART3MIS (bigbrother.art3mis.cloud)"
+
+[[group]]
+anchor = "9Diao4uo6NpeMud7t5wvGnJ3WxDM7iaYxkGtJM36T4dy"  # Firedancer Development
+votes = [
+  "HZKopZYvv8v6un2H6KUNVQCnK5zM9emKKezvqhTBSpEc",
+  "2e7PfK4w5QzYxNFJZYqpeXpZ6sx2CGC1BMpF76nzDoCC",
+  "H43AYFsvhNuALQieHpLXefp1ECgEBT6oVnS4EcTsC25C",
+  "HeQ9mBd2RA3JLkBUBcyJJTGhcFtRPeQuQKY2qx1VU3RA",
+  "AF84u2vQvSyuSurDqJNSgLGKA8viTrHmeYwjKzisC6w1",
+  "drXsaoxWGkvjEUveMpbS1RVQmtZ7y1kb9E4YERJxCFt",
+  "54DYhq7YnjHgVw8fKTEtYbc7qAtctWo8bjj84BrK1199",
+  "GdFaSCpPf9RqRjxkvXUCzLR62bEjmEPZMS9XRVFC3pDu",
+]
+[group.metadata]
+level = "warning"
+info = "Linked by withdraw authority (7 of 9), first funder (5 of 9), machines (5 of 9)"
+details = "Gossipwatch uses the same name. Withdraw authority EcH12jxhrbhF6qHqRzWpZ8rZU3TjG3sX6F67zP61oDJG on 2 of 9: drXsaoxW, 54DYhq7Y. Withdraw authority C2H6YSkVfACbqK9p2rmBWGHM7MUxrXx1n4onbm5AmjZX on 5 of 9 (all but Firedancer Development, H43AYFsv, drXsaoxW, 54DYhq7Y). Same machine, 5 of 9 (all but AF84u2vQ, drXsaoxW, 54DYhq7Y, GdFaSCpP): identities on one IP handed over under an hour apart, per ip_change history 2025-10 to 2026-09-28; busiest shared IP 64.130.42.146."
+sources = [
+  "https://explorer.solana.com/address/EcH12jxhrbhF6qHqRzWpZ8rZU3TjG3sX6F67zP61oDJG",
+  "https://explorer.solana.com/address/C2H6YSkVfACbqK9p2rmBWGHM7MUxrXx1n4onbm5AmjZX",
+  "https://get.art3mis.cloud/api/validators/DNVZMSqeRH18Xa4MCTrb1MndNf3Npg4MEwqswo23eWkf",
+  "https://solscan.io/account/4SNKY7GCp7ohY4AawND5Cc2D71sWMWN3Uifo854yvtks",
+  "https://solscan.io/account/AHZxzLeRGRfNVFrCmP58iJgEwbcXyZeAkZ32CmbfEmYR",
+  "https://solscan.io/account/6DTkuiey2RgMaBPC32dx2YpRKoNVfL19WdwBYih5SkVw",
+  "https://solscan.io/account/HDRqPft5ioWZnsV2XgNWpoyg9Js6Lnh6TxMSiDG843KD",
+  "https://solscan.io/account/FhFB8MAj5Kzxo2aUKnnAXGWxQRhfe1Nfrf5gTReQ1evD",
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=64.130.42.146",
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=64.130.63.76",
+  "https://gossip.solstack.app/#clusters",
+]
+credit = "ART3MIS (bigbrother.art3mis.cloud); same-machine method after Corvus Labs (gossip.solstack.app)"
+
+[[group]]
+anchor = "AaVsZUEnrHUZoXC2oVgTY3GF5GGhzCTBGrjpBtuUWy1H"  # Coinbase 04
+votes = [
+  "6D2jqw9hyVCpppZexquxa74Fn33rJzzBx38T58VucHx9",  # Coinbase 02
+  "GqcuMuWq4gKeCuCrD8iAjXTozCET2EP6qJXmZDFsSTWK",  # Coinbase 03
+  "ERut3CwqVeoa616QBaoHc5jL52RpkXjZZZ7MeaMaCtLi",  # Coinbase 05
+  "beefKGBWeSpHzYBHZXwp5So7wdQGX6mu4ZHCsH3uTar",  # Coinbase
+  "DyjoG2US2XiVvL1MVzL2wjS5jCTmvo6aNwvqJfaPNx9u",
+  "ARf5F66NrsQDQY4cmSCwyQJrYKhsiydgmeDNiHEWEmKT",  # Coinbase 06
+  "9YQXaP6VyiZepa1CCjGzBDZ1DZQ9rBSCfhKr5DLkUStz",
+]
+[group.metadata]
+level = "warning"
+info = "Linked by website (6 of 8), machines (5 of 8)"
+details = "Website coinbase.com/staking in validator-info on 6 of 8 (all but DyjoG2US, 9YQXaP6V). Same validator-info icon on 6 of 8 (all but DyjoG2US, 9YQXaP6V). Identical validator-info description on 6 of 8 (all but DyjoG2US, 9YQXaP6V). Same machine, 5 of 8 (all but Coinbase 04, Coinbase 02, Coinbase 05): identities on one IP at the same time, per ip_change history 2025-10 to 2026-09-28; busiest shared IP 45.250.255.167."
+sources = [
+  "https://get.art3mis.cloud/api/validators/FNKgX9dYUhYQFRTM9bkeKoRpsyEtZGNMxbdQLDzfqB8a",
+  "https://get.art3mis.cloud/api/validators/CW9C7HBwAMgqNdXkNgFg9Ujr3edR2Ab9ymEuQnVacd1A",
+  "https://get.art3mis.cloud/api/validators/9W3QTgBhkU4Bwg6cwnDJo6eGZ9BtZafSdu1Lo9JmWws7",
+  "https://get.art3mis.cloud/api/validators/6aDs9tUm2gErcPn2c1TZnp5cu2bQV9BzyuwW4baWQYd4",
+  "https://get.art3mis.cloud/api/validators/XkCriyrNwS3G4rzAXtG5B1nnvb5Ka1JtCku93VqeKAr",
+  "https://get.art3mis.cloud/api/validators/HE2REn7YRhFEghuctv3y1dUEK9aWhw8QQSUpRiHd819r",
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=45.250.255.167",
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=198.13.130.71",
+]
+credit = "ART3MIS (bigbrother.art3mis.cloud); same-machine method after Corvus Labs (gossip.solstack.app)"
+
+[[group]]
+anchor = "FKsC411dik9ktS6xPADxs4Fk2SCENvAiuccQHLAPndvk"  # P2P.org
+votes = [
+  "8hPk5CbKDoM7dN9LssTdVkFhDykeq7A8CZurA5AQSFJH",  # Bybit Staking
+  "BN6EvLCeuYdrTjGaHCyugF7sSH5uckoVoy3Kg2TkyuDW",  # Sygnum Validators
+  "xBLpiTwufjcuFCjbk4aCmFy7HUY5D9xy8L1EX2rBwmC",  # P2P.org Turbo
+  "2Bgb4T6Zdy9iy2S3xxDRpwdgQHpitoDnZt5aBnCwv3Ez",
+  "8n9ZTVwH2ZMTmCNmAgT54TUUJbLRLCDDy77nBpVzGEcE",
+  "7qTwituXJJ5dtUwBZXjMNgtAyXJbx3X8V4B9gXFRjK9d",  # P2P.org Labs
+  "55L7AV93xRmx5F7rX1GCfsHxfYWNu4bKsG6f8tG6dFRo",
+]
+[group.metadata]
+level = "warning"
+info = "Linked by withdraw authority (all 8), Squads signers (all 8), website (3 of 8), first funder (all 8)"
+details = "One withdraw authority sits on P2P.org's three nodes and on Bybit Staking and Sygnum Validators: one key holder; who owns each brand is not claimed. Withdraw authority HMeuTNWrsRiZBAvvXENVMFTgtEcdkaqgHMEvn1DY8nKD on all 8. Squads signers nCH27ozSyrxpzWkxUPBRszqbTLburquYXCYoTG9MvWH, 34zbKPnWTFXHxPf7Z1F54fyoRcpmfBrsay2ctHpQMM6a, 7f5YasXfkQgVTCMg8bJdoFe1Rk3eoe37faZLyhRjEwth on the withdraw vaults of all 8. Website p2p.org in validator-info on 3 of 8: P2P.org, P2P.org Turbo, P2P.org Labs."
+sources = [
+  "https://explorer.solana.com/address/HMeuTNWrsRiZBAvvXENVMFTgtEcdkaqgHMEvn1DY8nKD",
+  "https://explorer.solana.com/address/nCH27ozSyrxpzWkxUPBRszqbTLburquYXCYoTG9MvWH",
+  "https://explorer.solana.com/address/34zbKPnWTFXHxPf7Z1F54fyoRcpmfBrsay2ctHpQMM6a",
+  "https://explorer.solana.com/address/7f5YasXfkQgVTCMg8bJdoFe1Rk3eoe37faZLyhRjEwth",
+  "https://get.art3mis.cloud/api/validators/GnC339vkyXRm1jRX69dt9mapPPu2LbzXfSDoxc91qta6",
+  "https://get.art3mis.cloud/api/validators/2Df1aLCRYi3J1X24GXmASL4hjrZLHnvEF32KFWGJfR9E",
+  "https://get.art3mis.cloud/api/validators/8NpDWRcKHkBjn8mbHMYgDm2Z2DRvXXuDiSScPsGSdSgr",
+  "https://solscan.io/account/GnC339vkyXRm1jRX69dt9mapPPu2LbzXfSDoxc91qta6",
+  "https://solscan.io/account/Df16xM2XWzTXEGYxFBXtwXRhCdE6hwBbxS162TyS4r65",
+  "https://solscan.io/account/8o8wWCYNwPRSCAasp8rYvWuo3Ku1R1i6SEo9j9B6fe5i",
+  "https://solscan.io/account/2Df1aLCRYi3J1X24GXmASL4hjrZLHnvEF32KFWGJfR9E",
+  "https://solscan.io/account/DP9SwUE9Wi4NijWxgKDmmVsqGtQ597AKKmDBwzpt8GgZ",
+  "https://solscan.io/account/G8kUFxhR7eSmSyAtVYEAyhvkBKdR49n7d8BKqpBo55kJ",
+  "https://solscan.io/account/8NpDWRcKHkBjn8mbHMYgDm2Z2DRvXXuDiSScPsGSdSgr",
+  "https://solscan.io/account/AHNX2YiD8Sb36yLA7bjx1bNs4jqCdDt3KKrwMZJMVedb",
+]
+credit = "ART3MIS (bigbrother.art3mis.cloud); Squads-signer method after Corvus Labs (gossip.solstack.app)"
+
+[[group]]
+anchor = "CvSb7wdQAFpHuSpTYTJnX5SYH4hCfQ9VuGnqrKaKwycB"  # Galaxy
+votes = [
+  "GMeW3doRSeroW6e7gEMLb2Ne8MfmeLzKSBs4XcWtkdBP",
+  "GAoCBDE9ABRYmhWUREDp4po4L8JgCPeQsPS77p1mx3WR",
+]
+[group.metadata]
+level = "warning"
+info = "Same machines over time (all 3): on 64.130.63.145, at the same time"
+details = "Same machine, all 3: identities on one IP at the same time, per ip_change history 2025-10 to 2026-09-28; busiest shared IP 64.130.63.145."
+sources = [
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=64.130.63.145",
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=86.54.153.246",
+]
+credit = "ART3MIS (bigbrother.art3mis.cloud); same-machine method after Corvus Labs (gossip.solstack.app)"
+
+[[group]]
+anchor = "DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a"  # Staking Facilities | MEV 🔥
+votes = [
+  "BeachiopjxQxL7CaHNSZsynApiZCKx9QFVtcWNz3jDBo",  # Solana Beach Validator
+  "Ehdn9LdjTAURQSMoDPERXLehtvzy7QD762wwPkzGT7RS",  # SuperteamDE x Staking Facilities | Public Goods Validator
+]
+[group.metadata]
+level = "warning"
+info = "Linked by withdraw authority (all 3), Squads signers (all 3)"
+details = "Withdraw authority FhTtxoWPze25MdLZE7mzAwThtU8dgx6mEBtcoeK9puQr on all 3. Withdraw authority FhTtxoWP was first funded by FaRGc2DjF7SK24ia3rfuyvWkstVLtziT9sttcjLd8NnS on 2023-10-18 (Solscan). Withdraw authority FhTtxoWP (of Staking Facilities | MEV 🔥, Solana Beach Validator) stakes 112 SOL to SuperteamDE x Staking Facilities | Public Goods Validator."
+sources = [
+  "https://explorer.solana.com/address/FhTtxoWPze25MdLZE7mzAwThtU8dgx6mEBtcoeK9puQr",
+  "https://explorer.solana.com/address/FaRGc2DjF7SK24ia3rfuyvWkstVLtziT9sttcjLd8NnS",
+  "https://solscan.io/account/FhTtxoWPze25MdLZE7mzAwThtU8dgx6mEBtcoeK9puQr",
+]
+credit = "ART3MIS (bigbrother.art3mis.cloud); Squads-signer method after Corvus Labs (gossip.solstack.app)"
+
+[[group]]
+anchor = "DdCNGDpP7qMgoAy6paFzhhak2EeyCZcgjH7ak5u5v28m"  # Kiln1
+votes = [
+  "HCvnhbT3Sn5RsueDisWzzn5FkW8tAqoQK1dr7cvAVzin",  # Kiln2
+]
+[group.metadata]
+level = "info"
+info = "One operator: website (all 2)"
+details = "Website kiln.fi in validator-info on all 2. Same validator-info icon on all 2. Identical validator-info description on all 2."
+sources = [
+  "https://get.art3mis.cloud/api/validators/5pPRHniefFjkiaArbGX3Y8NUysJmQ9tMZg3FrFGwHzSm",
+  "https://get.art3mis.cloud/api/validators/ACvL73V4GNnxPVfZ7K89jCrYurLyzpEuE9qirjvh2Xmi",
+]
+credit = "ART3MIS (bigbrother.art3mis.cloud)"
+
+[[group]]
+anchor = "Haz7b47sZBpxh9SwggGndN3fAyNQ1S949BPdxWXS3ab6"  # Temporal Emerald
+votes = [
+  "2iWXwF2Q5W6o7yntV2mkbxncB4rYHnX61y3NU8a8EFMJ",  # DeFi Dev Corp (NASDAQ: DFDV)
+  "DqbRPQXbN8GDKWZkKiHnRjiSKPqE3rQaNgTPxdLGPDMK",  # Axiom
+  "CooLbbZy5Xmdt7DiHPQ3ss2uRXawnTXXVgpMS8E8jDzr",  # Cavey Cool
+  "oPaLTmyvoUhW26QCMwLA5JNUeBYy72PDpFoXQF8SeX4",  # Temporal Opal
+  "nymsndUdAZyUPpWYz5VEg8Ghj9cFvwTRgciLogpmYaQ",  # Hypo Nyms
+  "7emL18Bnve7wbYE9Az7vYJjikxN6YPU81igf6rVU5FN8",  # Temporal Topaz
+  "mrgn2vsZ5EJ8YEfAMNPXmRux7th9cNfBasQ1JJvVwPn",  # Project 0 Horizon
+  "mrgn4t2JabSgvGnrCaHXMvz8ocr4F52scsxJnkQMQsQ",  # Project 0 Meridian
+]
+[group.metadata]
+level = "warning"
+info = "Linked by website (5 of 9), machines (8 of 9)"
+details = "Temporal Emerald, Opal and Topaz shared machines over time with the other members (Project 0 Meridian joins by the 0.xyz website): one set of hands on the boxes; ownership is not claimed. Website 0.xyz in validator-info on 2 of 9: Project 0 Horizon, Project 0 Meridian. Same machine, 8 of 9 (all but Project 0 Meridian): identities on one IP handed over under an hour apart, per ip_change history 2025-10 to 2026-09-28; busiest shared IP 208.91.110.164."
+sources = [
+  "https://get.art3mis.cloud/api/validators/DcTPJqPNrTLv3te1c9ctA9H194x6DsaPA4ChuSEv7KPZ",
+  "https://get.art3mis.cloud/api/validators/BEsnodYCgiGB6MjzxGJoVM6iNhyM3ndEfNuSd7fRHUTG",
+  "https://get.art3mis.cloud/api/validators/8LDyyeJQTjR2hNRpjEVYNT2WFMXDpiCs4r98EpWSTt8D",
+  "https://get.art3mis.cloud/api/validators/mrgn2vUPsPynMcNh7cTbfrX8VAdgxEYwS7ZDHNYA9Ry",
+  "https://get.art3mis.cloud/api/validators/mrgn4atx3JnfUd8sDzr2gcpQRqiNPbVKnLNqS72ncsS",
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=208.91.110.164",
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=64.130.41.139",
+]
+credit = "ART3MIS (bigbrother.art3mis.cloud); same-machine method after Corvus Labs (gossip.solstack.app)"
+
+[[group]]
+anchor = "6aow5rTURdbhbeMDrFrbP2GR5vZjMEhktEy87iH1VGPs"  # Luganodes
+votes = [
+  "G83jy4NB16A4mchfRjZvfH8SPH2TxwjSZYxh5fzg2Qys",
+]
+[group.metadata]
+level = "warning"
+info = "Same machines over time (all 2): on 78.138.96.203, at the same time"
+details = "Same machine, both: on 78.138.96.203 at the same time, per ip_change history 2025-10 to 2026-09-28."
+sources = [
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=78.138.96.203",
+]
+credit = "ART3MIS (bigbrother.art3mis.cloud); same-machine method after Corvus Labs (gossip.solstack.app)"
+
+[[group]]
+anchor = "8zuMRTXThoPTTPLLvaiKiJshLLCqGMt9BdRjjCL19xBc"  # Dawn Labs
+votes = [
+  "AGJmwvFJmJqHsSCu4EPsZ4W5N2hpwWC3FNQJc8ZFJBsy",
+  "6AAeoHYMUQfSdFGqubUmWVAasFkzJEq47oKpHNNTZxLN",  # Tane
+  "Ha8d5UUJUmEVHh2mLitaihGxQJeU6GfGx5FwBenEJCxN",  # Axis
+  "H6rbcwuQtadcv9JvxLM7GEskF6xFXnrNT3iPkk4RfyBE",  # LootGo
+  "F3scMRjzSvXUa7JoK2uwBjNsYGi5sM84sDzE7FfGBo6o",  # HAKUHODO KEY3
+  "EJHf5N9is5spAF5Kz384tTvTV3CwTka6qzUoZrYm53SV",  # Windfall
+  "FzUNgBRnVxawDytN9GM7BFwxFfekuMs7BcAGybn4AmMk",  # NTT DOCOMO GLOBAL
+  "QWmexgr4teHa2ZF85tyf2hvEwBvJ6ioAEr1h8DRjoie",  # Daiko
+  "9bb63m29Xy1KiWqijLs3f8adTE4KcSmVkt1qPxGkbkna",  # Vault
+  "2DNGsVZ9rg6RvT8bY4SGmGvyiVJ4xt9RL3NDd6uhfN46",  # South
+  "4ibf8qJirtoBGg7gSD7V7CeCKoFB96PBYQ3J5QjSmAob",  # Sol Hack3rs
+  "9KgZYnDzHhQANoJ43Z8czkgXYdTjtWLRrH9nDf42gqa",  # Pacific Meta
+  "74y2qkCaJ5L17hTsz3E8jftNxTBCTvdz4P2L6qTHDW59",  # Hive Validator
+  "3vwstewNgWAwN2uyuJduoZVVhmiwvAbwCxrjeJG6bASy",  # WIZE Validator
+  "DPsW8v7gkGUbPPRnraS5e163bDepd9tD537X9S231T2j",  # StudentSOL
+  "7K8DVxtNJGnMtUY1CQJT5jcs8sFGSZTDiG7kowvFpECh",  # Hubra
+  "4udPrmxccbP1NwDJ6vChFKs5qcqyjmQff6gsKXD1mdaj",  # Allied Validator
+]
+[group.metadata]
+level = "warning"
+info = "Same machines over time (all 18): on 84.32.186.198, handed over under an hour apart"
+details = "Dawn Labs shared machines over time with every other member: one set of hands on the boxes; ownership is not claimed. Same machine, all 18: identities on one IP handed over under an hour apart, per ip_change history 2025-10 to 2026-09-28; busiest shared IP 84.32.186.198."
+sources = [
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=84.32.186.198",
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=84.32.186.44",
+]
+credit = "ART3MIS (bigbrother.art3mis.cloud); same-machine method after Corvus Labs (gossip.solstack.app)"
+
+[[group]]
+anchor = "punK4RDD3pFbcum79ACHatYPLLE1hr5UNnQVUGNfeyP"  # SOL Strategies
+votes = [
+  "SKRuTecmFDZHjs2DxRTJNEK7m7hunKGTWJiaZ3tMVVA",  # Solana Mobile Validator
+  "oRAnGeU5h8h2UkvbfnE5cjXnnAa4rBoaxmS4kbFymSe",  # Orangefin by SOL Strategies
+  "CogentC52e7kktFfWHwsqSmr8LiS1yAtfqhHcftCPcBJ",  # Cogent ⚙️  by SOL Strategies
+  "GE6atKoWiQ2pt3zL7N13pjNHjdLVys8LinG8qeJLcAiL",  # Laine ❤️  by SOL Strategies
+  "pENgUh4K9zNacyU3PXVE9KugW98XCqZsWpEvA8d8wzX",  # PENGU Validator
+]
+[group.metadata]
+level = "warning"
+info = "Linked by withdraw authority (2 of 6), Squads signers (5 of 6), website (2 of 6)"
+details = "The Squads vaults of Orangefin, Laine, Cogent, PENGU Validator and Solana Mobile Validator share signer keys, and Orangefin declares SOL Strategies' website; who owns each brand is not claimed. Withdraw authority 7TJjg7wYfd9stqMSX9PvjidLbr7Ug6UpSnuuEA8jVvHu on 2 of 6: Orangefin by SOL Strategies, Laine ❤️  by SOL Strategies. Squads signer orWTVSaxN11kEKKAs4wxcFs4My5vgX4UkrTjec7t6jt on the withdraw vaults of 5 of 6 (all but SOL Strategies)."
+sources = [
+  "https://explorer.solana.com/address/7TJjg7wYfd9stqMSX9PvjidLbr7Ug6UpSnuuEA8jVvHu",
+  "https://explorer.solana.com/address/orWTVSaxN11kEKKAs4wxcFs4My5vgX4UkrTjec7t6jt",
+  "https://get.art3mis.cloud/api/validators/STKEsvUSpD38eDxkAJN6cENMYfjVxieajVpmVVkgd1t",
+  "https://get.art3mis.cloud/api/validators/Cogent51kHgGLHr7zpkpRjGYFXM57LgjHjDdqXd4ypdA",
+  "https://get.art3mis.cloud/api/validators/LA1NEzryoih6CQW3gwQqJQffK2mKgnXcjSQZSRpM3wc",
+  "https://get.art3mis.cloud/api/validators/SSmBEooM7RkmyuXxuKgAhTvhQZ36Z3G2WsmLGJKoQLY",
+]
+credit = "ART3MIS (bigbrother.art3mis.cloud); Squads-signer method after Corvus Labs (gossip.solstack.app)"
+
+[[group]]
+anchor = "FuvD3qqrVjuh355sBs1u8bUS3aU8NgknymLskPvtAc6N"
+votes = [
+  "J1to1yufRnoWn81KYg1XkTWzmKjnYSnmE2VY8DGUJ9Qv",  # Jito1
+  "J1to2NAwajc8hD6E6kujdQiPn1Bbt2mGKKZLY9kSQKdB",  # Jito2 (Experimental)
+  "J1to3PQfXidUUhprQWgdKkQAMWPJAEqSJ7amkBDE9qhF",  # Jito3 / BONK - DECOMMISSIONING
+]
+[group.metadata]
+level = "warning"
+info = "Linked by withdraw authority (3 of 4), website (2 of 4), machines (2 of 4)"
+details = "Withdraw authority HqYJKKHPvuD7NwToZdbETCwAvCE2hfFhnTg3Gqg4mQoB on 3 of 4 (all but FuvD3qqr). Withdraw authority HqYJKKHP was first funded by 8hv33bpiPWsQYDWGvpFeHd6Q3Gjqr5ww6cnDzvr8Xdji on 2022-07-12 (Solscan). Website jito.wtf in validator-info on 2 of 4: Jito1, Jito2 (Experimental). Same machine, 2 of 4: FuvD3qqr, Jito1: identities on one IP handed over under an hour apart, per ip_change history 2025-10 to 2026-09-28; busiest shared IP 64.130.50.44."
+sources = [
+  "https://explorer.solana.com/address/HqYJKKHPvuD7NwToZdbETCwAvCE2hfFhnTg3Gqg4mQoB",
+  "https://get.art3mis.cloud/api/validators/2X5yarNUWGyyiJDtRoPATvJYeNecvWG7zCkBrY2J1to1",
+  "https://get.art3mis.cloud/api/validators/A4hyMd3FyvUJSRafDUSwtLLaQcxRP4r1BRC9w2AJ1to2",
+  "https://solscan.io/account/HqYJKKHPvuD7NwToZdbETCwAvCE2hfFhnTg3Gqg4mQoB",
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=64.130.50.44",
+]
+credit = "ART3MIS (bigbrother.art3mis.cloud); same-machine method after Corvus Labs (gossip.solstack.app)"
+
+[[group]]
+anchor = "LSTmLs1DENX82ihc7jU134mydiV3NDEPXsRrekAY6Ys"  # Sanctum
+votes = [
+  "685Njwvpn3t5a8cAfVj7R65AfCJ6XoBpca9qy15XFiTd",
+]
+[group.metadata]
+level = "warning"
+info = "One operator: withdraw authority (all 2)"
+details = "Withdraw authority 8JS6XsMPo2u3EyeeY3p2jvzHEhdUtCKgarHpJ3PAonyv on all 2. Withdraw authority 8JS6XsMP was first funded by DFuzP7h38k5BCzD1wHdVHFpzF6j1byMe68rqvUk3Pgdf on 2025-10-07 (Solscan)."
+sources = [
+  "https://explorer.solana.com/address/8JS6XsMPo2u3EyeeY3p2jvzHEhdUtCKgarHpJ3PAonyv",
+  "https://solscan.io/account/8JS6XsMPo2u3EyeeY3p2jvzHEhdUtCKgarHpJ3PAonyv",
+]
+credit = "ART3MIS (bigbrother.art3mis.cloud)"
+
+[[group]]
+anchor = "34kE8AGJazhgrsovREiB2Uru1CuhN4gCznNAmVUxB9AB"
+votes = [
+  "J2nUHEAgZFRyuJbFjdqPrAa9gyWDuc7hErtDQHPhsYRp",  # Phantom Validator
+]
+[group.metadata]
+level = "warning"
+info = "Linked by withdraw authority (all 2), Squads signers (all 2)"
+details = "Withdraw authority 87RkDTy3dEsEP9Rbfb4KoFHuQ2JNvT4xnagQLL6DKCH9 on all 2. Withdraw authority 87RkDTy3 was first funded by 3zWubDKriAATbxW2s61EFAofwtzCYdviH3tdViV9B19L on 2025-04-08 (Solscan). Squads signers 2qB8uzCYwpFEbmMPT4szwfjQ28qDyLpTZxr6WKGnGTE9, 5TgfpLPzFVgtP4iN4QAY7u7RWUidxdeEfKaj4jvDKt22, 3zWubDKriAATbxW2s61EFAofwtzCYdviH3tdViV9B19L on the withdraw vaults of all 2."
+sources = [
+  "https://explorer.solana.com/address/87RkDTy3dEsEP9Rbfb4KoFHuQ2JNvT4xnagQLL6DKCH9",
+  "https://explorer.solana.com/address/3zWubDKriAATbxW2s61EFAofwtzCYdviH3tdViV9B19L",
+  "https://explorer.solana.com/address/2qB8uzCYwpFEbmMPT4szwfjQ28qDyLpTZxr6WKGnGTE9",
+  "https://explorer.solana.com/address/5TgfpLPzFVgtP4iN4QAY7u7RWUidxdeEfKaj4jvDKt22",
+  "https://solscan.io/account/87RkDTy3dEsEP9Rbfb4KoFHuQ2JNvT4xnagQLL6DKCH9",
+]
+credit = "ART3MIS (bigbrother.art3mis.cloud); Squads-signer method after Corvus Labs (gossip.solstack.app)"
+
+[[group]]
+anchor = "71nnaeTyVeA4pTozAPjRuQyMydQTZCrFUkz7Pzy5tiDJ"
+votes = [
+  "GrefCNn5jSbcWv3uiervqZiCC87F8oX7PXz9LEBiog6s",  # TruFin by Twinstake
+]
+[group.metadata]
+level = "warning"
+info = "Same machines over time (all 2): on 84.207.214.232, handed over under an hour apart"
+details = "Same machine, both: on 84.207.214.232 handed over under an hour apart, per ip_change history 2025-10 to 2026-09-28."
+sources = [
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=84.207.214.232",
+]
+credit = "ART3MIS (bigbrother.art3mis.cloud); same-machine method after Corvus Labs (gossip.solstack.app)"
+
+[[group]]
+anchor = "HxRrsnbc6K8CdEo3LCTrSUkFaDDxv9BdJsTDzBKnUVWH"  # Haus – Best APY & No Fees
+votes = [
+  "41HgiTYQ3qDWFW8jSDkecH2mEHUqZsmwFGDPndtmyLDR",  # MeshMap
+]
+[group.metadata]
+level = "warning"
+info = "Same machines over time (all 2): on 37.72.171.102, handed over under an hour apart"
+details = "Same machine, both: on 37.72.171.102 handed over under an hour apart, per ip_change history 2025-10 to 2026-09-28."
+sources = [
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=37.72.171.102",
+]
+credit = "ART3MIS (bigbrother.art3mis.cloud); same-machine method after Corvus Labs (gossip.solstack.app)"
+
+[[group]]
+anchor = "GvZEwtCHZ7YtCkQCaLRVEXsyVvQkRDhJhQgB6akPme1e"  # melea 🚀 SOL 🤑2K
+votes = [
+  "6hTLQ5HSdWcpZkbXmZxXaGjCgTh7zh8UeWKWKgGE1BPp",  # 6hTLQ5HSdWcpZkbXmZxXaGjCgTh7zh8UeWKWKgGE1BPp
+]
+[group.metadata]
+level = "warning"
+info = "Same machines over time (all 2): on 46.21.152.138, at the same time"
+details = "Same machine, both: on 46.21.152.138 at the same time, per ip_change history 2025-10 to 2026-09-28."
+sources = [
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=46.21.152.138",
+]
+credit = "ART3MIS (bigbrother.art3mis.cloud); same-machine method after Corvus Labs (gossip.solstack.app)"
+
+[[group]]
+anchor = "FRTcwF2LHHLV2VxKB9nzNpqyBXjpKvkEs5aRuMXrrk8X"  # Calypso
+votes = [
+  "47hzyKgoz9Fu1HP4mR48tvAFj7akCFZKGzZqWo32sNqG",  # Maera
+  "2s2K5hcECd67832EzrVMCiCtbb54CHsqXtewuwwNVqtA",  # Nemertes
+]
+[group.metadata]
+level = "warning"
+info = "Linked by withdraw authority (all 3), Squads signers (all 3)"
+details = "Withdraw authority CJQzHKnpxWxhzYfbDJiNdD1EBLdnjiYWQ4rQ9yrHUaXi on all 3. Withdraw authority CJQzHKnp was first funded by H12pFVxEbq8WhSbo2bVZ9x6TdEjKw8wicFFdRdtooibD on 2025-02-11 (Solscan). Squads signers 9zoXQyzJYXZrgPdQgMAE1QNpVxi4gg7DBnK5HomN8oft, H12pFVxEbq8WhSbo2bVZ9x6TdEjKw8wicFFdRdtooibD, EJ326n22QeFgB7NWhRnk9wsf6V3MZ2anq9EVvkCtDTzZ, DXyUKCdhL3HjJUvdE4qR7idCbR4eXTYi2QYS8QdYuv8C on the withdraw vaults of all 3. Withdraw authority CJQzHKnp (of Maera, Nemertes) stakes 11 SOL to Calypso."
+sources = [
+  "https://explorer.solana.com/address/CJQzHKnpxWxhzYfbDJiNdD1EBLdnjiYWQ4rQ9yrHUaXi",
+  "https://explorer.solana.com/address/H12pFVxEbq8WhSbo2bVZ9x6TdEjKw8wicFFdRdtooibD",
+  "https://explorer.solana.com/address/9zoXQyzJYXZrgPdQgMAE1QNpVxi4gg7DBnK5HomN8oft",
+  "https://explorer.solana.com/address/EJ326n22QeFgB7NWhRnk9wsf6V3MZ2anq9EVvkCtDTzZ",
+  "https://explorer.solana.com/address/DXyUKCdhL3HjJUvdE4qR7idCbR4eXTYi2QYS8QdYuv8C",
+  "https://solscan.io/account/CJQzHKnpxWxhzYfbDJiNdD1EBLdnjiYWQ4rQ9yrHUaXi",
+]
+credit = "ART3MIS (bigbrother.art3mis.cloud); Squads-signer method after Corvus Labs (gossip.solstack.app)"
+
+[[group]]
+anchor = "DierScgiTrz5AM7mddeJLHYNvafym3XhjjdM51AnKevU"  # MAVAN
+votes = [
+  "FnAPJkzf19s87sm24Qhv6bHZMZvZ43gjNUBRgjwXpD4v",  # MAVAN Infrastructure
+]
+[group.metadata]
+level = "warning"
+info = "Linked by withdraw authority (all 2), website (all 2)"
+details = "Withdraw authority 21QtqniuGZgqcgHrcfo9ujufnnFd2xEuKk9pnC1gWYGW on all 2. Withdraw authority 21Qtqniu was first funded by 3eojCREQysQcGL7FoktZvH1oA97vEciRZLsmH7P4u9BC on 2026-06-28 (Solscan). Website bitminetech.io in validator-info on all 2. Same validator-info icon on all 2. Identical validator-info description on all 2."
+sources = [
+  "https://explorer.solana.com/address/21QtqniuGZgqcgHrcfo9ujufnnFd2xEuKk9pnC1gWYGW",
+  "https://get.art3mis.cloud/api/validators/E3mDbFMr8yZcCAZx5wPUFCRmLX31u8Nnj4jPoPc54h3F",
+  "https://get.art3mis.cloud/api/validators/38zm5bBgDaNRSQBDUAL72kMH3RsX4UKmZiNmmrjuTq8W",
+  "https://solscan.io/account/21QtqniuGZgqcgHrcfo9ujufnnFd2xEuKk9pnC1gWYGW",
+]
+credit = "ART3MIS (bigbrother.art3mis.cloud)"
+
+[[group]]
+anchor = "2hK2uke7ssm7QuBzbrgxBs2aStmFmdKyC12yV2iwvvPm"
+votes = [
+  "3VZHxnkK1A3HYeWYaqgMebHnc2acgLzRiXYwTNm3ooYM",  # Orca
+]
+[group.metadata]
+level = "warning"
+info = "Same machines over time (all 2): on 137.239.202.126, at the same time"
+details = "Same machine, both: on 137.239.202.126 at the same time, per ip_change history 2025-10 to 2026-09-28."
+sources = [
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=137.239.202.126",
+]
+credit = "ART3MIS (bigbrother.art3mis.cloud); same-machine method after Corvus Labs (gossip.solstack.app)"
+
+[[group]]
+anchor = "GLCrZmxWYcrGMA5uRa8mmNnQurGBL2p9zrKk9DKugSZX"
+votes = [
+  "9BSZriSFS8Yb835exZwTLN19Dqy9B43yvuMAAdL3nBvz",
+  "95Kg9C27WjjrnQpgZ418hxWTeumPTyH1ENnBoimVN5PL",
+  "BRrgfW2AKKYYEGVU6j1mbnoQajHTRuUgXCAPPzFgcF9q",
+  "FWwnxVb7Q59MoMraDN2k8gqkdJJVd2qu9o5iiQsxpoUp",
+  "BjREhubbyR597w8tK9NUCLY74Zct2VuhvrNhyLinVc2e",
+  "2zxo26eJJSryYa5fdMRoWWvPTx8aoeqZHe6L4767sCaN",
+  "6CscV2sTXdurJKwuJ6RZnPKca6pNhqAhN57ygKga2T7G",
+  "5cJyfCLBfghRtoCuVJNreJgNCStqXLrhHmRhSRYtbgtr",
+  "6zzAPhyFZgS6rdknHNZLcsoooZ744GtVmTDyfvRmN37Q",
+  "ASifxiwxht8FvsiV3VcLngsCBMw4E6zw3QMWoJTbM4Uf",
+]
+[group.metadata]
+level = "warning"
+info = "One operator: withdraw authority (all 11)"
+details = "Gossipwatch names this cluster \"Anza\". Withdraw authority HuENqY8dYjWxWaXbM1oEk3J3F2htjgQJAEXRZ5WKv6Jt on all 11. Withdraw authority HuENqY8d was first funded by 9pezyokBZruC2NXXQedkASMGsBsJPZC87rXyLJqjYMgq on 2025-05-12 (Solscan)."
+sources = [
+  "https://explorer.solana.com/address/HuENqY8dYjWxWaXbM1oEk3J3F2htjgQJAEXRZ5WKv6Jt",
+  "https://solscan.io/account/HuENqY8dYjWxWaXbM1oEk3J3F2htjgQJAEXRZ5WKv6Jt",
+  "https://gossip.solstack.app/#clusters",
+]
+credit = "ART3MIS (bigbrother.art3mis.cloud); cluster name after Corvus Labs (gossip.solstack.app)"
+
+[[group]]
+anchor = "bkpkQKgJMQXqwZL5dRX9LMwnsz9zkZZqCtqWfnBcwDx"  # Backpack
+votes = [
+  "34yvUa2fxfm2tUqxFEj9PHrVNwCcdzd51eo9hntWpZRs",  # Aurora Validator
+  "B6nDYYLc2iwYqY3zdmavMmU9GjUL2hf79MkufviM2bXv",  # Mad Lads
+]
+[group.metadata]
+level = "warning"
+info = "Same machines over time (all 3): on 38.46.222.136, handed over under an hour apart"
+details = "Same machine, all 3: identities on one IP handed over under an hour apart, per ip_change history 2025-10 to 2026-09-28; busiest shared IP 38.46.222.136."
+sources = [
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=38.46.222.136",
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=38.58.176.230",
+]
+credit = "ART3MIS (bigbrother.art3mis.cloud); same-machine method after Corvus Labs (gossip.solstack.app)"
+
+[[group]]
+anchor = "4qvFxnUXYjBdcviCwVV7gKcGJMCENEBfS82hSLJUhyvu"  # DICS - Degen Infrastructure Core Services
+votes = [
+  "odc2aCE7yWTcV8ApP1cHmVqQZTkLNduqaYyKE1XhpE3",  # Odyssey
+  "chopjqMvdGWRcrcuC1r8LmAzz9obXi1gSYPYM6zimWa",  # Choplet Studios
+  "21oUQzzytWh6y3G3SQ7ehktMh1RrbsJNA4R5pAMNyyrG",  # Range
+  "Lua298Woc4rgcswL64yfWAL4EW44FgBZeLsKforf6tJ",  # Lua Sol Foundation
+]
+[group.metadata]
+level = "warning"
+info = "Same machines over time (all 5): on 38.92.24.108, handed over under an hour apart"
+details = "Same machine, all 5: identities on one IP handed over under an hour apart, per ip_change history 2025-10 to 2026-09-28; busiest shared IP 38.92.24.108."
+sources = [
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=38.92.24.108",
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=5.199.172.156",
+]
+credit = "ART3MIS (bigbrother.art3mis.cloud); same-machine method after Corvus Labs (gossip.solstack.app)"
+
+[[group]]
+anchor = "FACqsS19VScz8oo2YhdMg35EsAy6xsCZ9Y58eJXGv8QJ"  # Lantern
+votes = [
+  "BoNKvwirX136zCjcnayEM4W82vn13RKkjm1Sy3UPBdim",  # BONK
+]
+[group.metadata]
+level = "warning"
+info = "Same machines over time (all 2): on 199.91.64.26, handed over under an hour apart"
+details = "Same machine, both: on 199.91.64.26 handed over under an hour apart, per ip_change history 2025-10 to 2026-09-28. Withdraw authority CFp5kK1f (of Lantern) stakes 1 SOL to BONK."
+sources = [
+  "https://explorer.solana.com/address/CFp5kK1fDwuAdn1vzyK4RqKsfJ9SUd97w6zNVnLJTQHp",
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=199.91.64.26",
+]
+credit = "ART3MIS (bigbrother.art3mis.cloud); same-machine method after Corvus Labs (gossip.solstack.app)"
+
+[[group]]
+anchor = "DPmsofVJ1UMRZADgwYAHotJnazMwohHzRHSoomL6Qcao"  # JStaking: 0% fee · top returns
+votes = [
+  "5afRnmkFn1pRU9oussqwk1RRBVyoDgUkL16Jz4qNf574",  # Staking Kiwi
+  "CTDGxxJBrZVqUUHdHopLn4k4gtc2PCpcM9TB7ZEC4Hu2",  # Cointelegraph Decentralization Guardians
+]
+[group.metadata]
+level = "warning"
+info = "Same machines over time (all 3): on 70.40.185.173, handed over under an hour apart"
+details = "Same machine, all 3: identities on one IP handed over under an hour apart, per ip_change history 2025-10 to 2026-09-28; busiest shared IP 70.40.185.173."
+sources = [
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=70.40.185.173",
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=70.40.185.229",
+]
+credit = "ART3MIS (bigbrother.art3mis.cloud); same-machine method after Corvus Labs (gossip.solstack.app)"
+
+[[group]]
+anchor = "Cer1umMkC6cvRGKKLP3QwxsdxsgxmC1EhqMhB1mqVvYZ"  # 🔥💃🇸🇬 CeriumXYZ
+votes = [
+  "R2D2vs3bJwpNF2ejaB6UW1JdCZ5VstuAmuwxDuUUWNj",  # 🤖 RoboRun.xyz
+]
+[group.metadata]
+level = "warning"
+info = "Same machines over time (all 2): on 84.32.32.83, handed over under an hour apart"
+details = "Same machine, both: on 84.32.32.83 handed over under an hour apart, per ip_change history 2025-10 to 2026-09-28."
+sources = [
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=84.32.32.83",
+]
+credit = "ART3MIS (bigbrother.art3mis.cloud); same-machine method after Corvus Labs (gossip.solstack.app)"
+
+[[group]]
+anchor = "Dkj8XzgvjDuZzvAwiWYExt3rwLPqtVEQTpgK49tRirb5"
+votes = [
+  "CBSrVMzHqnjb1td6diYaqy2Nq1GotkKQBB6i5eaR1ZyR",
+]
+[group.metadata]
+level = "warning"
+info = "Same machines over time (all 2): on 84.32.49.237, at the same time"
+details = "Same machine, both: on 84.32.49.237 at the same time, per ip_change history 2025-10 to 2026-09-28."
+sources = [
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=84.32.49.237",
+]
+credit = "ART3MIS (bigbrother.art3mis.cloud); same-machine method after Corvus Labs (gossip.solstack.app)"
+
+[[group]]
+anchor = "J6KaKtLRj7eQGuVVL2CAz1AS9kDxsrmej9QbYkEtsiAD"  # DarkTower
+votes = [
+  "FwLsjPJdnSiuCvs1NXyR1cV6Sw5GRE6Lj2s1gZ9NNTmv",  # CyberVillage
+  "6SF5cmEXFFEmnFd5BwM4J6NkZhh3WfPkgmqdoAGjLLPX",  # livechanger
+  "3hhEWRNAVzqRjmF9hW5nYkrmDMxKKzGziE11Sg7yk3iX",  # Glory to Ukraine
+]
+[group.metadata]
+level = "warning"
+info = "Same machines over time (all 4): on 212.83.42.36, handed over under an hour apart"
+details = "Same machine, all 4: identities on one IP handed over under an hour apart, per ip_change history 2025-10 to 2026-09-28; busiest shared IP 212.83.42.36. Withdraw authority vNzXRLDf (of CyberVillage) stakes 351 SOL to Glory to Ukraine. Withdraw authority 5aem3akc (of livechanger) stakes 244 SOL to DarkTower."
+sources = [
+  "https://explorer.solana.com/address/5aem3akckdxfaYjVybGEc2gW5RVocK6WM8Z7WPFYzKQw",
+  "https://explorer.solana.com/address/vNzXRLDfkCZMadgmdBU7nGKcTJdVnkqZysrYMBEsUwp",
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=212.83.42.36",
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=45.134.108.87",
+]
+credit = "ART3MIS (bigbrother.art3mis.cloud); same-machine method after Corvus Labs (gossip.solstack.app)"
+
+[[group]]
+anchor = "PEBBLETUXFPdrwm5heff4x1VsrypGS1fNSRPEF6LiZL"  # Pebble
+votes = [
+  "PUFFiNkUHF2DMfbKeUcYTSQckDDtkswfxZCDv5WQqwp",  # Puffin
+]
+[group.metadata]
+level = "info"
+info = "One operator: website (all 2)"
+details = "Website puffin-validator.xyz in validator-info on all 2."
+sources = [
+  "https://get.art3mis.cloud/api/validators/pebb1eQXvcuQfXkeyYjdoBVufKHwdKGL3G37GUts8Db",
+  "https://get.art3mis.cloud/api/validators/puffinQSvKFriPbyE5atyx1ptfnyytovbzxybr1jsyy",
+]
+credit = "ART3MIS (bigbrother.art3mis.cloud)"
+
+[[group]]
+anchor = "HMk1qny4fvMnajErxjXG5kT89JKV4cx1PKa9zhQBF9ib"  # BLOCKSIZE
+votes = [
+  "MicobSZgB9CZNvmnFSYbEtMjy7CUui5o6P3XoGTwZC5",  # MICOBO
+]
+[group.metadata]
+level = "warning"
+info = "Same machines over time (all 2): on 104.204.141.165, at the same time"
+details = "Same machine, both: on 104.204.141.165 at the same time, per ip_change history 2025-10 to 2026-09-28."
+sources = [
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=104.204.141.165",
+]
+credit = "ART3MIS (bigbrother.art3mis.cloud); same-machine method after Corvus Labs (gossip.solstack.app)"
+
+[[group]]
+anchor = "HLM6hyDWrEca9QMS92nDBa2AreU1qDkppttPVuJ7E2CU"  # P-OPS Team
+votes = [
+  "GK9MfwWEK7BvMS8eQDaiEPnKcqMJoS7SKUiEBQY2pfxC",  # JDO Mainnet Validator
+]
+[group.metadata]
+level = "warning"
+info = "Same machines over time (all 2): on 84.32.186.144, handed over under an hour apart"
+details = "Same machine, both: on 84.32.186.144 handed over under an hour apart, per ip_change history 2025-10 to 2026-09-28."
+sources = [
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=84.32.186.144",
+]
+credit = "ART3MIS (bigbrother.art3mis.cloud); same-machine method after Corvus Labs (gossip.solstack.app)"
+
+[[group]]
+anchor = "FCvNkHa4U3yh7AXWGGL2jWLWiSRouR8EtzY5WVTHKTHa"  # H2O Nodes💧
+votes = [
+  "B1rsc6jv3RsFpkak8qvJN3PfGYSg9E3Uw1joaV1EoiFj",  # RevTec | 100% Block Reward
+]
+[group.metadata]
+level = "warning"
+info = "Same machines over time (all 2): on 193.243.164.200, handed over under an hour apart"
+details = "Same machine, both: on 193.243.164.200 handed over under an hour apart, per ip_change history 2025-10 to 2026-09-28."
+sources = [
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=193.243.164.200",
+]
+credit = "ART3MIS (bigbrother.art3mis.cloud); same-machine method after Corvus Labs (gossip.solstack.app)"
+
+[[group]]
+anchor = "RaydiumNAMK9EbDEP5wab8XiRkHNz1897SBsGUKotrV"  # Raydium
+votes = [
+  "RaydiumJDX8X6om6Fg44xyqz5eukZ9KC3LX61SttLbH",  # Raydium Validator
+]
+[group.metadata]
+level = "info"
+info = "One operator: website (all 2)"
+details = "Website raydium.io in validator-info on all 2."
+sources = [
+  "https://get.art3mis.cloud/api/validators/Raydiumm3w3a4nGanDBLkUtKxMFooSPmeg9qwUKMsMc",
+  "https://get.art3mis.cloud/api/validators/vvvvbtDs9HsdsE6NskZMnb1RA6muoud1ChQuiF9QhSM",
+]
+credit = "ART3MIS (bigbrother.art3mis.cloud)"
+
+[[group]]
+anchor = "5cwxevV9u1poNgfc1tKxMfEGX4oKt1DZNSHg48Umubm3"
+votes = [
+  "A11pGbZDE8fPNZgiqDjoST6v3QMdhzZ3r8W5YahCKtS5",  # Rain Works💧MEV💧0% fees
+]
+[group.metadata]
+level = "warning"
+info = "Same machines over time (all 2): on 70.40.185.205, at the same time"
+details = "Same machine, both: on 70.40.185.205 at the same time, per ip_change history 2025-10 to 2026-09-28."
+sources = [
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=70.40.185.205",
+]
+credit = "ART3MIS (bigbrother.art3mis.cloud); same-machine method after Corvus Labs (gossip.solstack.app)"
+
+[[group]]
+anchor = "vvvvXsU6iG2enDVvs4KeVqS4YrZczTujSv5p3dSeNHx"  # Pesky Penguins 🔥💃 NOOT NOOT
+votes = [
+  "kyvvvkDpDCtSxQMPhzRhmv14DgUBVEGGzn8Dnb8ircP",  # Kyzzen
+]
+[group.metadata]
+level = "warning"
+info = "Same machines over time (all 2): on 45.139.134.64, handed over under an hour apart"
+details = "Same machine, both: on 45.139.134.64 handed over under an hour apart, per ip_change history 2025-10 to 2026-09-28."
+sources = [
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=45.139.134.64",
+]
+credit = "ART3MIS (bigbrother.art3mis.cloud); same-machine method after Corvus Labs (gossip.solstack.app)"
+
+[[group]]
+anchor = "TKMA1fBGq4M7gF2CNnhphX6vNateFc2cm2FL2mYwq7e"  # Tokamai
+votes = [
+  "P1TCHYwYPsNaNUK6fGkZzwXPjnYAMYRnUUv4c1TREee",  # DePitch Academy
+]
+[group.metadata]
+level = "warning"
+info = "Linked by Squads signers (all 2), machines (all 2)"
+details = "Squads signer 7qxbtq6skgSB3ucERTX1nccUhiHFxZxtXcNTaHo7syo7 on the withdraw vaults of all 2. Same machine, both: on 160.202.131.33 handed over under an hour apart, per ip_change history 2025-10 to 2026-09-28."
+sources = [
+  "https://explorer.solana.com/address/7qxbtq6skgSB3ucERTX1nccUhiHFxZxtXcNTaHo7syo7",
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=160.202.131.33",
+]
+credit = "ART3MIS (bigbrother.art3mis.cloud); Squads-signer and same-machine methods after Corvus Labs (gossip.solstack.app)"
+
+[[group]]
+anchor = "4m1PbxzwLdUnEwog3T9UKxgjktgriHgE1CfAhMqDw7Xx"  # Sora Validator
+votes = [
+  "3xjfK9C9YNcta8MvK1US4sQ3bc6DEjoJoR3qLExGf9xE",  # pico🙄.sol
+]
+[group.metadata]
+level = "warning"
+info = "Same machines over time (all 2): on 5.199.172.199, handed over under an hour apart"
+details = "Same machine, both: on 5.199.172.199 handed over under an hour apart, per ip_change history 2025-10 to 2026-09-28."
+sources = [
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=5.199.172.199",
+]
+credit = "ART3MIS (bigbrother.art3mis.cloud); same-machine method after Corvus Labs (gossip.solstack.app)"
+
+[[group]]
+anchor = "NikGQUQqSLtsdHGGx7mQopojZcgd3N9uWFaZQ1r5EXn"  # NCValidator
+votes = [
+  "HcbE5huUVDgsf7SURsRfQqnFMp3Zz3i49eXMddugPyAP",  # Solana Ukraine 🇺🇦
+  "ViKLknQuks11DLEjZ7Y2aNYAAT7Q3NTKLGxs8rdnLVi",  # LightNode
+]
+[group.metadata]
+level = "warning"
+info = "Same machines over time (all 3): on 5.187.35.46, at the same time"
+details = "Same machine, all 3: identities on one IP at the same time, per ip_change history 2025-10 to 2026-09-28; busiest shared IP 5.187.35.46."
+sources = [
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=5.187.35.46",
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=176.111.58.114",
+]
+credit = "ART3MIS (bigbrother.art3mis.cloud); same-machine method after Corvus Labs (gossip.solstack.app)"
+
+[[group]]
+anchor = "DrKHZXtuGhuYbe5MfigvCXR7VFd3u2wxepXei8m2GsDE"
+votes = [
+  "sShosKd6uA5c1ZpVMxdsE6do13TLRWSMYsXbSMmNC77",  # dogo
+]
+[group.metadata]
+level = "warning"
+info = "Same machines over time (all 2): on 64.130.32.174, at the same time"
+details = "Same machine, both: on 64.130.32.174 at the same time, per ip_change history 2025-10 to 2026-09-28."
+sources = [
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=64.130.32.174",
+]
+credit = "ART3MIS (bigbrother.art3mis.cloud); same-machine method after Corvus Labs (gossip.solstack.app)"
+
+[[group]]
+anchor = "Cu4GibmVNncBa4NWD8JpDcBKc29NnSWH9h8YHgTQn5f2"  # Fly to the Moon Validator
+votes = [
+  "FEjcS4JCTqitjzW4Zj3Va2ioZZKf7MqsCMnrrgGLSvjm",  # Block Rush Validator
+]
+[group.metadata]
+level = "warning"
+info = "One operator: withdraw authority (all 2)"
+details = "Withdraw authority GBhHKdgzgme3ezmEhBKG4nnY5XrJ9sjPHLfg67VDxfZW on all 2. Withdraw authority GBhHKdgz was first funded by 5tzFkiKscXHK5ZXCGbXZxdw7gTjjD1mBwuoFbhUvuAi9 on 2025-10-13 (Solscan)."
+sources = [
+  "https://explorer.solana.com/address/GBhHKdgzgme3ezmEhBKG4nnY5XrJ9sjPHLfg67VDxfZW",
+  "https://solscan.io/account/GBhHKdgzgme3ezmEhBKG4nnY5XrJ9sjPHLfg67VDxfZW",
+]
+credit = "ART3MIS (bigbrother.art3mis.cloud)"
+
+[[group]]
+anchor = "so1arJJbp9sis5XpovLyjTZPk8bDjfs37Meghi5wXbu"  # Solar | Empowering Youth | 0% Fee + MEV Rewards
+votes = [
+  "FH9xcL7Fqkreq1wSkn2Vf7AfnMEyo2KK7QX32LTFndt6",  # Fountainhead 🌱 Funding Dev WITH max APY
+]
+[group.metadata]
+level = "warning"
+info = "Linked by Squads signers (all 2), machines (all 2)"
+details = "Squads signers 39bFgLTjEsmhjafwh6h6pesK7C6t6GwDS4xeDor3KoZM, 2AT9Xt1tA81mivXtB9hDaTvCqnzfXPGtobqLAeTN9cgJ on the withdraw vaults of all 2. Same machine, both: on 89.42.231.105 at the same time, per ip_change history 2025-10 to 2026-09-28."
+sources = [
+  "https://explorer.solana.com/address/39bFgLTjEsmhjafwh6h6pesK7C6t6GwDS4xeDor3KoZM",
+  "https://explorer.solana.com/address/2AT9Xt1tA81mivXtB9hDaTvCqnzfXPGtobqLAeTN9cgJ",
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=89.42.231.105",
+]
+credit = "ART3MIS (bigbrother.art3mis.cloud); Squads-signer and same-machine methods after Corvus Labs (gossip.solstack.app)"
+
+[[group]]
+anchor = "HdQ1Ap8wm6Mz65FaP8jMNBVfCDv5T9NdS8UTSvHmcotn"  # Moutai Validator 🚀 Performant, Secure and NO Fees
+votes = [
+  "Fe5zMqkmoYbwnXH9RHjFy7YMRnak9so2bzPBroPJ4iiX",  # U1S1 Validator 🚀 Performant, Secure and NO Fees
+  "DzPT1ZWDeURdTj38QBSceWnrpYFxZRBLPRXmUgHVDAGR",  # YYDS Validator 🚀 Performant, Secure and NO Fees
+]
+[group.metadata]
+level = "warning"
+info = "Linked by withdraw authority (all 3), website (all 3), machines (all 3)"
+details = "Withdraw authority G7zwjeFkb3YBLPYpxSVqNH6mJTuVe3gkfaNWA4Dw9irc on all 3. Withdraw authority G7zwjeFk was first funded by 2UfEGwprdj949XkMUSz4RqXY99GttdZau8Bq3HCepQE7 on 2025-04-26 (Solscan). Website site-et7.pages.dev in validator-info on all 3. Same validator-info icon on all 3. Same machine, all 3: identities on one IP handed over under an hour apart, per ip_change history 2025-10 to 2026-09-28; busiest shared IP 91.134.84.57."
+sources = [
+  "https://explorer.solana.com/address/G7zwjeFkb3YBLPYpxSVqNH6mJTuVe3gkfaNWA4Dw9irc",
+  "https://get.art3mis.cloud/api/validators/8nbE53mcKhy74HLiGZ1q5HRocwiCvgh49csSaHSdtukr",
+  "https://get.art3mis.cloud/api/validators/2Le6TjeEescF87qDA8Ftdz6U8Kq6SNVwoLJLhzBCHUr5",
+  "https://get.art3mis.cloud/api/validators/Xoir1BnQX9TbEvon9HRbD8tkjcD9dorsxmNjZAV64Re",
+  "https://solscan.io/account/G7zwjeFkb3YBLPYpxSVqNH6mJTuVe3gkfaNWA4Dw9irc",
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=91.134.84.57",
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=64.130.44.58",
+]
+credit = "ART3MIS (bigbrother.art3mis.cloud); same-machine method after Corvus Labs (gossip.solstack.app)"
+
+[[group]]
+anchor = "bXr9MyoUAaGusQZ4gaUPmSZByHAV7RRGr1FhCW5tFh8"  # bloXroute EU
+votes = [
+  "DSzLJLUQD55sxaCsJBHLFSV1SYngMmT7oY8rLpFhyGgb",  # bloXroute US
+]
+[group.metadata]
+level = "info"
+info = "One operator: website (all 2)"
+details = "Website bloxroute.com in validator-info on all 2. Same validator-info icon on all 2."
+sources = [
+  "https://get.art3mis.cloud/api/validators/bxrAptB5ZpZBhoLedJpoGWY5hBjjt3zvVBr2323Rrq6",
+  "https://get.art3mis.cloud/api/validators/DCdTPyDbXNHrmdv4ZyPPzEfY4mPAqH4hDPtowAteoNgv",
+]
+credit = "ART3MIS (bigbrother.art3mis.cloud)"
+
+[[group]]
+anchor = "CzmqDuqEpfnkptuLAcikmJrhCnhFXo8aUBj6Rto1SPAc"  # MARGUS.ONE 💎 0% fee +MEV!
+votes = [
+  "5ni6KoVM62cRJNfFFKGdiyDfYbKWWAGZ21cfGZcj1y66",  # Custodian 💼 0% fees +MEV!
+]
+[group.metadata]
+level = "warning"
+info = "Same machines over time (all 2): on 62.197.45.172, handed over under an hour apart"
+details = "Same machine, both: on 62.197.45.172 handed over under an hour apart, per ip_change history 2025-10 to 2026-09-28."
+sources = [
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=62.197.45.172",
+]
+credit = "ART3MIS (bigbrother.art3mis.cloud); same-machine method after Corvus Labs (gossip.solstack.app)"
+
+[[group]]
+anchor = "4ZWkZ935pKUquuDpY64MmXVVoFciu6jAoC2z5bCxHhve"
+votes = [
+  "4LzXaAZs5UFsjizK6SqSGHEuzQZRpu9xFKaYyH4oQCdQ",
+  "4XFoRoFQzEpAf4Jc39bfsuWM4fos5Yq3zcyp9R3nStkF",
+]
+[group.metadata]
+level = "warning"
+info = "Linked by withdraw authority (all 3), first funder (2 of 3)"
+details = "Withdraw authority 7zDxgmcQ316KfPnNpxZP63eRC3D4tmEJTVGmaQ9LiMUE on all 3. Identities first funded by ArGZs2ME5q1psxGLa3GuqLuWCRKeG7Z2NYTcYbzqx1i on 2 of 3 (all but 4XFoRoFQ) (Solscan Funded By)."
+sources = [
+  "https://explorer.solana.com/address/7zDxgmcQ316KfPnNpxZP63eRC3D4tmEJTVGmaQ9LiMUE",
+  "https://get.art3mis.cloud/api/validators/HsJbu6AeNPcT1XS4Tk4XmhtzVo7ER2q49LVKJn2Ykzzk",
+  "https://solscan.io/account/HsJbu6AeNPcT1XS4Tk4XmhtzVo7ER2q49LVKJn2Ykzzk",
+  "https://solscan.io/account/U6Yigc574tGvnaFmzjX55W1h4cCjfYSamb41ge59G7Q",
+]
+credit = "ART3MIS (bigbrother.art3mis.cloud)"
+
+[[validator]]
+vote = "CpfvLiiPALdzZTP3fUrALg2TXwEDSAknRh1sn5JCt9Sr"  # Ledger by Bitwise
+[validator.metadata]
+level = "note"
+info = "Evidence for the Bitwise Onchain Solutions group that its details field cannot hold"
+details = "Group Bitwise Onchain Solutions: Identities first funded by JCkod8xUb83ejQ9pLq9tTDrpEQAuiWrcLWX6AS5gp2mp (the group's withdraw authority) on 3 of 5 (all but Bitwise Onchain Solutions, Bitwise Onchain Solutions 02) (Solscan Funded By)."
+sources = [
+  "https://explorer.solana.com/address/JCkod8xUb83ejQ9pLq9tTDrpEQAuiWrcLWX6AS5gp2mp",
+  "https://get.art3mis.cloud/api/validators/E1r4Psq84tHfQ6aPTvvDka4U3u8zPVD7gEUrH25RdxHL",
+  "https://get.art3mis.cloud/api/validators/GBQ2GvTzmjXMu97dr7WUnLKYTNim1aoZsYS53KYXAAAA",
+  "https://get.art3mis.cloud/api/validators/ChorusmmK7i1AxXeiTtQgQZhQNiXYU84ULeaYF1EH15n",
+  "https://get.art3mis.cloud/api/validators/2abwQG3v2xRemFxRszVHSfnjJNe9zu5X8duKgxjyLeaK",
+  "https://solscan.io/account/GBQ2GvTzmjXMu97dr7WUnLKYTNim1aoZsYS53KYXAAAA",
+  "https://solscan.io/account/LeDbQ99QT342j9S5YdyXLrsq2Gu3T3dMGajExdAuE3V",
+  "https://solscan.io/account/2abwQG3v2xRemFxRszVHSfnjJNe9zu5X8duKgxjyLeaK",
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=79.127.239.96",
+  "https://get.art3mis.cloud/api/validators/LeDbQ99QT342j9S5YdyXLrsq2Gu3T3dMGajExdAuE3V",
+]
+
+[[validator]]
+vote = "8GbwASqdpw4dVcwbWUxbHXMrjyQx2aKkoBR5H1GJF8iD"  # Bitwise Onchain Solutions
+[validator.metadata]
+level = "note"
+info = "Evidence for the Bitwise Onchain Solutions group that its details field cannot hold"
+details = "Group Bitwise Onchain Solutions: Withdraw authority JCkod8xU was first funded by KchK7WTjPzq9QL5aCwnV1dLsT8rFjruS1Zfzamxus9G (Solscan). Same validator-info icon on 2 of 5: Bitwise Onchain Solutions, Bitwise Onchain Solutions | Jito BAM. Same validator-info icon on 2 of 5: Bitwise Onchain Solutions 02, Bitwise Onchain Solutions Research."
+sources = [
+  "https://explorer.solana.com/address/JCkod8xUb83ejQ9pLq9tTDrpEQAuiWrcLWX6AS5gp2mp",
+  "https://get.art3mis.cloud/api/validators/E1r4Psq84tHfQ6aPTvvDka4U3u8zPVD7gEUrH25RdxHL",
+  "https://get.art3mis.cloud/api/validators/GBQ2GvTzmjXMu97dr7WUnLKYTNim1aoZsYS53KYXAAAA",
+  "https://get.art3mis.cloud/api/validators/ChorusmmK7i1AxXeiTtQgQZhQNiXYU84ULeaYF1EH15n",
+  "https://get.art3mis.cloud/api/validators/2abwQG3v2xRemFxRszVHSfnjJNe9zu5X8duKgxjyLeaK",
+  "https://solscan.io/account/GBQ2GvTzmjXMu97dr7WUnLKYTNim1aoZsYS53KYXAAAA",
+  "https://solscan.io/account/LeDbQ99QT342j9S5YdyXLrsq2Gu3T3dMGajExdAuE3V",
+  "https://solscan.io/account/2abwQG3v2xRemFxRszVHSfnjJNe9zu5X8duKgxjyLeaK",
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=79.127.239.96",
+]
+
+[[validator]]
+vote = "9Diao4uo6NpeMud7t5wvGnJ3WxDM7iaYxkGtJM36T4dy"  # Firedancer Development
+[validator.metadata]
+level = "note"
+info = "Evidence for the Firedancer Development group that its details field cannot hold"
+details = "Group Firedancer Development: Identities first funded by FBbqKvwLfKGZrKrfSbPJz4ymQ7zMarhRyZtu1RBkSe89 (identity of H43AYFsv) on 3 of 9: HeQ9mBd2, AF84u2vQ, GdFaSCpP (Solscan Funded By). Identities first funded by 4SNKY7GCp7ohY4AawND5Cc2D71sWMWN3Uifo854yvtks (identity of HeQ9mBd2) on 2 of 9: drXsaoxW, 54DYhq7Y (Solscan Funded By). Withdraw authority EcH12jxh (of drXsaoxW) stakes 71,152 SOL to 54DYhq7Y."
+sources = [
+  "https://explorer.solana.com/address/EcH12jxhrbhF6qHqRzWpZ8rZU3TjG3sX6F67zP61oDJG",
+  "https://explorer.solana.com/address/C2H6YSkVfACbqK9p2rmBWGHM7MUxrXx1n4onbm5AmjZX",
+  "https://get.art3mis.cloud/api/validators/DNVZMSqeRH18Xa4MCTrb1MndNf3Npg4MEwqswo23eWkf",
+  "https://solscan.io/account/4SNKY7GCp7ohY4AawND5Cc2D71sWMWN3Uifo854yvtks",
+  "https://solscan.io/account/AHZxzLeRGRfNVFrCmP58iJgEwbcXyZeAkZ32CmbfEmYR",
+  "https://solscan.io/account/6DTkuiey2RgMaBPC32dx2YpRKoNVfL19WdwBYih5SkVw",
+  "https://solscan.io/account/HDRqPft5ioWZnsV2XgNWpoyg9Js6Lnh6TxMSiDG843KD",
+  "https://solscan.io/account/FhFB8MAj5Kzxo2aUKnnAXGWxQRhfe1Nfrf5gTReQ1evD",
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=64.130.42.146",
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=64.130.63.76",
+]
+
+[[validator]]
+vote = "HZKopZYvv8v6un2H6KUNVQCnK5zM9emKKezvqhTBSpEc"
+[validator.metadata]
+level = "note"
+info = "Evidence for the Firedancer Development group that its details field cannot hold"
+details = "Group Firedancer Development: Withdraw authority C2H6YSkV was first funded by 4xw4TpgPuuZbSPjTuxamvudBWhwwNfkUjmnHgUhzPq7f on 2023-01-24 (Solscan). Withdraw authority EcH12jxh (of drXsaoxW, 54DYhq7Y) stakes 64,800 SOL to HZKopZYv. Withdraw authority EcH12jxh (of 54DYhq7Y) stakes 89,152 SOL to drXsaoxW."
+sources = [
+  "https://explorer.solana.com/address/EcH12jxhrbhF6qHqRzWpZ8rZU3TjG3sX6F67zP61oDJG",
+  "https://explorer.solana.com/address/C2H6YSkVfACbqK9p2rmBWGHM7MUxrXx1n4onbm5AmjZX",
+  "https://get.art3mis.cloud/api/validators/DNVZMSqeRH18Xa4MCTrb1MndNf3Npg4MEwqswo23eWkf",
+  "https://solscan.io/account/4SNKY7GCp7ohY4AawND5Cc2D71sWMWN3Uifo854yvtks",
+  "https://solscan.io/account/AHZxzLeRGRfNVFrCmP58iJgEwbcXyZeAkZ32CmbfEmYR",
+  "https://solscan.io/account/6DTkuiey2RgMaBPC32dx2YpRKoNVfL19WdwBYih5SkVw",
+  "https://solscan.io/account/HDRqPft5ioWZnsV2XgNWpoyg9Js6Lnh6TxMSiDG843KD",
+  "https://solscan.io/account/FhFB8MAj5Kzxo2aUKnnAXGWxQRhfe1Nfrf5gTReQ1evD",
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=64.130.42.146",
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=64.130.63.76",
+]
+
+[[validator]]
+vote = "FKsC411dik9ktS6xPADxs4Fk2SCENvAiuccQHLAPndvk"  # P2P.org
+[validator.metadata]
+level = "note"
+info = "Evidence for the P2P.org group that its details field cannot hold"
+details = "Group P2P.org: Identities first funded by aXU4ukTD1WPAmy7t7oVH1ecWCBn2rGKg1G9MYBczwC8 on all 8 (Solscan Funded By). Withdraw authority HMeuTNWr was first funded by nCH27ozSyrxpzWkxUPBRszqbTLburquYXCYoTG9MvWH on 2026-07-15 (Solscan). Same validator-info icon on 3 of 8: P2P.org, P2P.org Turbo, P2P.org Labs."
+sources = [
+  "https://explorer.solana.com/address/HMeuTNWrsRiZBAvvXENVMFTgtEcdkaqgHMEvn1DY8nKD",
+  "https://explorer.solana.com/address/nCH27ozSyrxpzWkxUPBRszqbTLburquYXCYoTG9MvWH",
+  "https://explorer.solana.com/address/34zbKPnWTFXHxPf7Z1F54fyoRcpmfBrsay2ctHpQMM6a",
+  "https://explorer.solana.com/address/7f5YasXfkQgVTCMg8bJdoFe1Rk3eoe37faZLyhRjEwth",
+  "https://get.art3mis.cloud/api/validators/GnC339vkyXRm1jRX69dt9mapPPu2LbzXfSDoxc91qta6",
+  "https://get.art3mis.cloud/api/validators/2Df1aLCRYi3J1X24GXmASL4hjrZLHnvEF32KFWGJfR9E",
+  "https://get.art3mis.cloud/api/validators/8NpDWRcKHkBjn8mbHMYgDm2Z2DRvXXuDiSScPsGSdSgr",
+  "https://solscan.io/account/GnC339vkyXRm1jRX69dt9mapPPu2LbzXfSDoxc91qta6",
+  "https://solscan.io/account/Df16xM2XWzTXEGYxFBXtwXRhCdE6hwBbxS162TyS4r65",
+  "https://solscan.io/account/8o8wWCYNwPRSCAasp8rYvWuo3Ku1R1i6SEo9j9B6fe5i",
+]
+
+[[validator]]
+vote = "8hPk5CbKDoM7dN9LssTdVkFhDykeq7A8CZurA5AQSFJH"  # Bybit Staking
+[validator.metadata]
+level = "note"
+info = "Evidence for the P2P.org group that its details field cannot hold"
+details = "Group P2P.org: Withdraw authority HMeuTNWr (of Bybit Staking, Sygnum Validators, P2P.org Turbo, 2Bgb4T6Z, 8n9ZTVwH, P2P.org Labs, 55L7AV93) stakes 1,677 SOL to P2P.org."
+sources = [
+  "https://explorer.solana.com/address/HMeuTNWrsRiZBAvvXENVMFTgtEcdkaqgHMEvn1DY8nKD",
+  "https://explorer.solana.com/address/nCH27ozSyrxpzWkxUPBRszqbTLburquYXCYoTG9MvWH",
+  "https://explorer.solana.com/address/34zbKPnWTFXHxPf7Z1F54fyoRcpmfBrsay2ctHpQMM6a",
+  "https://explorer.solana.com/address/7f5YasXfkQgVTCMg8bJdoFe1Rk3eoe37faZLyhRjEwth",
+  "https://get.art3mis.cloud/api/validators/GnC339vkyXRm1jRX69dt9mapPPu2LbzXfSDoxc91qta6",
+  "https://get.art3mis.cloud/api/validators/2Df1aLCRYi3J1X24GXmASL4hjrZLHnvEF32KFWGJfR9E",
+  "https://get.art3mis.cloud/api/validators/8NpDWRcKHkBjn8mbHMYgDm2Z2DRvXXuDiSScPsGSdSgr",
+  "https://solscan.io/account/GnC339vkyXRm1jRX69dt9mapPPu2LbzXfSDoxc91qta6",
+  "https://solscan.io/account/Df16xM2XWzTXEGYxFBXtwXRhCdE6hwBbxS162TyS4r65",
+  "https://solscan.io/account/8o8wWCYNwPRSCAasp8rYvWuo3Ku1R1i6SEo9j9B6fe5i",
+]
+
+[[validator]]
+vote = "DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a"  # Staking Facilities | MEV 🔥
+[validator.metadata]
+level = "note"
+info = "Evidence for the Staking Facilities | MEV 🔥 group that its details field cannot hold"
+details = "Group Staking Facilities | MEV 🔥: Squads signer Fp1eBLGy6U9AZAh4XR3upDWm9fot7AB6cQA5p1FEzXR9 on the withdraw vaults of all 3. Squads signer EpiPYBtRmA4KP44coS37FpRwFaiArMDWweYtgi4S9o6D on the withdraw vaults of all 3. Squads signer C6BdCHW6vLXFT6RAWbuDowwd5Q8UjD5c4jS7Aga7G9hW on the withdraw vaults of all 3."
+sources = [
+  "https://explorer.solana.com/address/FhTtxoWPze25MdLZE7mzAwThtU8dgx6mEBtcoeK9puQr",
+  "https://explorer.solana.com/address/FaRGc2DjF7SK24ia3rfuyvWkstVLtziT9sttcjLd8NnS",
+  "https://solscan.io/account/FhTtxoWPze25MdLZE7mzAwThtU8dgx6mEBtcoeK9puQr",
+  "https://get.art3mis.cloud/api/validators/Awes4Tr6TX8JDzEhCZY2QVNimT6iD1zWHzf1vNyGvpLM",
+  "https://explorer.solana.com/address/Fp1eBLGy6U9AZAh4XR3upDWm9fot7AB6cQA5p1FEzXR9",
+  "https://explorer.solana.com/address/EpiPYBtRmA4KP44coS37FpRwFaiArMDWweYtgi4S9o6D",
+  "https://explorer.solana.com/address/C6BdCHW6vLXFT6RAWbuDowwd5Q8UjD5c4jS7Aga7G9hW",
+]
+credit = "ART3MIS (bigbrother.art3mis.cloud); Squads-signer method after Corvus Labs (gossip.solstack.app)"
+
+[[validator]]
+vote = "BeachiopjxQxL7CaHNSZsynApiZCKx9QFVtcWNz3jDBo"  # Solana Beach Validator
+[validator.metadata]
+level = "note"
+info = "Evidence for the Staking Facilities | MEV 🔥 group that its details field cannot hold"
+details = "Group Staking Facilities | MEV 🔥: Squads signer FaRGc2DjF7SK24ia3rfuyvWkstVLtziT9sttcjLd8NnS on the withdraw vaults of all 3. Squads signer HJMcYafYL6TpsVH4VQJvFr31J616Q8NcTPTV5rnMowjz on the withdraw vaults of all 3. Squads signer 3NdNGxvyBDW9Exakk4n8TkcDwodUhpv2H5pkAjrovh6n on the withdraw vaults of all 3."
+sources = [
+  "https://explorer.solana.com/address/FhTtxoWPze25MdLZE7mzAwThtU8dgx6mEBtcoeK9puQr",
+  "https://explorer.solana.com/address/FaRGc2DjF7SK24ia3rfuyvWkstVLtziT9sttcjLd8NnS",
+  "https://solscan.io/account/FhTtxoWPze25MdLZE7mzAwThtU8dgx6mEBtcoeK9puQr",
+  "https://get.art3mis.cloud/api/validators/BeaCHioStqCEFDFxKwAEzyrUPYxqnBPhJ98gDKeEiTPb",
+  "https://explorer.solana.com/address/HJMcYafYL6TpsVH4VQJvFr31J616Q8NcTPTV5rnMowjz",
+  "https://explorer.solana.com/address/3NdNGxvyBDW9Exakk4n8TkcDwodUhpv2H5pkAjrovh6n",
+]
+credit = "ART3MIS (bigbrother.art3mis.cloud); Squads-signer method after Corvus Labs (gossip.solstack.app)"
+
+[[validator]]
+vote = "Ehdn9LdjTAURQSMoDPERXLehtvzy7QD762wwPkzGT7RS"  # SuperteamDE x Staking Facilities | Public Goods Validator
+[validator.metadata]
+level = "note"
+info = "Evidence for the Staking Facilities | MEV 🔥 group that its details field cannot hold"
+details = "Group Staking Facilities | MEV 🔥: Squads signer 3yG6UTefEnCEQWKf63Bo3F7Axgk3AHSS9G93gJnXJuAc on the withdraw vaults of all 3. Squads signer A9VDNvGaBB2uT1SgEHRE6ycdtJ851uBqUsmSp2aMeM5B on the withdraw vaults of all 3. Squads signer EFgtABJok7pgnNbvXUTbRQoNiimenKJwJxScZX1Fp9eH on the withdraw vaults of all 3."
+sources = [
+  "https://explorer.solana.com/address/FhTtxoWPze25MdLZE7mzAwThtU8dgx6mEBtcoeK9puQr",
+  "https://explorer.solana.com/address/FaRGc2DjF7SK24ia3rfuyvWkstVLtziT9sttcjLd8NnS",
+  "https://solscan.io/account/FhTtxoWPze25MdLZE7mzAwThtU8dgx6mEBtcoeK9puQr",
+  "https://get.art3mis.cloud/api/validators/73hojLdq1vZDSxeVQEqVFJ4iwLngdvEJPEpEHkSdv6BZ",
+  "https://explorer.solana.com/address/3yG6UTefEnCEQWKf63Bo3F7Axgk3AHSS9G93gJnXJuAc",
+  "https://explorer.solana.com/address/A9VDNvGaBB2uT1SgEHRE6ycdtJ851uBqUsmSp2aMeM5B",
+  "https://explorer.solana.com/address/EFgtABJok7pgnNbvXUTbRQoNiimenKJwJxScZX1Fp9eH",
+]
+credit = "ART3MIS (bigbrother.art3mis.cloud); Squads-signer method after Corvus Labs (gossip.solstack.app)"
+
+[[validator]]
+vote = "Haz7b47sZBpxh9SwggGndN3fAyNQ1S949BPdxWXS3ab6"  # Temporal Emerald
+[validator.metadata]
+level = "note"
+info = "Evidence for the Temporal Emerald group that its details field cannot hold"
+details = "Group Temporal Emerald: Website temporal.xyz in validator-info on 3 of 9: Temporal Emerald, Temporal Opal, Temporal Topaz."
+sources = [
+  "https://get.art3mis.cloud/api/validators/DcTPJqPNrTLv3te1c9ctA9H194x6DsaPA4ChuSEv7KPZ",
+  "https://get.art3mis.cloud/api/validators/BEsnodYCgiGB6MjzxGJoVM6iNhyM3ndEfNuSd7fRHUTG",
+  "https://get.art3mis.cloud/api/validators/8LDyyeJQTjR2hNRpjEVYNT2WFMXDpiCs4r98EpWSTt8D",
+  "https://get.art3mis.cloud/api/validators/mrgn2vUPsPynMcNh7cTbfrX8VAdgxEYwS7ZDHNYA9Ry",
+  "https://get.art3mis.cloud/api/validators/mrgn4atx3JnfUd8sDzr2gcpQRqiNPbVKnLNqS72ncsS",
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=208.91.110.164",
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=64.130.41.139",
+]
+
+[[validator]]
+vote = "punK4RDD3pFbcum79ACHatYPLLE1hr5UNnQVUGNfeyP"  # SOL Strategies
+[validator.metadata]
+level = "note"
+info = "Evidence for the SOL Strategies group that its details field cannot hold"
+details = "Group SOL Strategies: Squads signers HFuAfpYu3NKidrEzP8ZKDyTmQX5tjwswyt2pKVFJcrLN, 592L5EYTGzhbZfyJGSLx5fzxkHJRU4uPySELTk4L4rUU on the withdraw vaults of 4 of 6 (all but SOL Strategies, PENGU Validator). Squads signers BCat3L2utb5BaEsQokSBp2zQjKw85UPGyAUF8jTkzdQB, D9kFFjcAqXK64UWFYG1VfB1h1feQRJkDyd3E4dt9SfeK on the withdraw vaults of 4 of 6 (all but Cogent ⚙️  by SOL Strategies, SOL Strategies)."
+sources = [
+  "https://explorer.solana.com/address/7TJjg7wYfd9stqMSX9PvjidLbr7Ug6UpSnuuEA8jVvHu",
+  "https://explorer.solana.com/address/orWTVSaxN11kEKKAs4wxcFs4My5vgX4UkrTjec7t6jt",
+  "https://get.art3mis.cloud/api/validators/STKEsvUSpD38eDxkAJN6cENMYfjVxieajVpmVVkgd1t",
+  "https://get.art3mis.cloud/api/validators/Cogent51kHgGLHr7zpkpRjGYFXM57LgjHjDdqXd4ypdA",
+  "https://get.art3mis.cloud/api/validators/LA1NEzryoih6CQW3gwQqJQffK2mKgnXcjSQZSRpM3wc",
+  "https://get.art3mis.cloud/api/validators/SSmBEooM7RkmyuXxuKgAhTvhQZ36Z3G2WsmLGJKoQLY",
+  "https://explorer.solana.com/address/HFuAfpYu3NKidrEzP8ZKDyTmQX5tjwswyt2pKVFJcrLN",
+  "https://explorer.solana.com/address/592L5EYTGzhbZfyJGSLx5fzxkHJRU4uPySELTk4L4rUU",
+  "https://explorer.solana.com/address/BCat3L2utb5BaEsQokSBp2zQjKw85UPGyAUF8jTkzdQB",
+  "https://explorer.solana.com/address/D9kFFjcAqXK64UWFYG1VfB1h1feQRJkDyd3E4dt9SfeK",
+]
+credit = "ART3MIS (bigbrother.art3mis.cloud); Squads-signer method after Corvus Labs (gossip.solstack.app)"
+
+[[validator]]
+vote = "SKRuTecmFDZHjs2DxRTJNEK7m7hunKGTWJiaZ3tMVVA"  # Solana Mobile Validator
+[validator.metadata]
+level = "note"
+info = "Evidence for the SOL Strategies group that its details field cannot hold"
+details = "Group SOL Strategies: Squads signers EDvBSwwnNgN2cMePHKy2xBryJuVnmPirgnkuX2b2ZfLk, 9mdwFZMH6rk4uQwF6XPFrzdxxhWHvedjRZsXEBVm643P, 5C9oA1zN1xT4cTsr3JidA9yYkDFemk3GNQ3BmuG8L3Ue on the withdraw vaults of 2 of 6: Orangefin by SOL Strategies, Laine ❤️  by SOL Strategies. Squads signer BtdgPbWAPKgehcWdxRYGv9VF9Skt8kUzSUB78jQKmaxQ on the withdraw vaults of 2 of 6: Cogent ⚙️  by SOL Strategies, PENGU Validator."
+sources = [
+  "https://explorer.solana.com/address/7TJjg7wYfd9stqMSX9PvjidLbr7Ug6UpSnuuEA8jVvHu",
+  "https://explorer.solana.com/address/orWTVSaxN11kEKKAs4wxcFs4My5vgX4UkrTjec7t6jt",
+  "https://get.art3mis.cloud/api/validators/STKEsvUSpD38eDxkAJN6cENMYfjVxieajVpmVVkgd1t",
+  "https://get.art3mis.cloud/api/validators/Cogent51kHgGLHr7zpkpRjGYFXM57LgjHjDdqXd4ypdA",
+  "https://get.art3mis.cloud/api/validators/LA1NEzryoih6CQW3gwQqJQffK2mKgnXcjSQZSRpM3wc",
+  "https://get.art3mis.cloud/api/validators/SSmBEooM7RkmyuXxuKgAhTvhQZ36Z3G2WsmLGJKoQLY",
+  "https://get.art3mis.cloud/api/validators/6XKqyUVUcpe3CNucjF6gk5zonJDqNGvob6kaTy4Ps1U",
+  "https://explorer.solana.com/address/EDvBSwwnNgN2cMePHKy2xBryJuVnmPirgnkuX2b2ZfLk",
+  "https://explorer.solana.com/address/9mdwFZMH6rk4uQwF6XPFrzdxxhWHvedjRZsXEBVm643P",
+  "https://explorer.solana.com/address/5C9oA1zN1xT4cTsr3JidA9yYkDFemk3GNQ3BmuG8L3Ue",
+]
+credit = "ART3MIS (bigbrother.art3mis.cloud); Squads-signer method after Corvus Labs (gossip.solstack.app)"
+
+[[validator]]
+vote = "oRAnGeU5h8h2UkvbfnE5cjXnnAa4rBoaxmS4kbFymSe"  # Orangefin by SOL Strategies
+[validator.metadata]
+level = "note"
+info = "Evidence for the SOL Strategies group that its details field cannot hold"
+details = "Group SOL Strategies: Website solstrategies.io in validator-info on 2 of 6: Orangefin by SOL Strategies, SOL Strategies. Withdraw authority 7TJjg7wY was first funded by DdGnZegUd7RUsZi2gtJNP9c1ccAAkww36gTDLXEJSqoM on 2024-06-06 (Solscan). Identical validator-info description on 2 of 6: Cogent ⚙️  by SOL Strategies, Laine ❤️  by SOL Strategies."
+sources = [
+  "https://explorer.solana.com/address/7TJjg7wYfd9stqMSX9PvjidLbr7Ug6UpSnuuEA8jVvHu",
+  "https://explorer.solana.com/address/orWTVSaxN11kEKKAs4wxcFs4My5vgX4UkrTjec7t6jt",
+  "https://get.art3mis.cloud/api/validators/STKEsvUSpD38eDxkAJN6cENMYfjVxieajVpmVVkgd1t",
+  "https://get.art3mis.cloud/api/validators/Cogent51kHgGLHr7zpkpRjGYFXM57LgjHjDdqXd4ypdA",
+  "https://get.art3mis.cloud/api/validators/LA1NEzryoih6CQW3gwQqJQffK2mKgnXcjSQZSRpM3wc",
+  "https://get.art3mis.cloud/api/validators/SSmBEooM7RkmyuXxuKgAhTvhQZ36Z3G2WsmLGJKoQLY",
+]
+
+[[validator]]
+vote = "CogentC52e7kktFfWHwsqSmr8LiS1yAtfqhHcftCPcBJ"  # Cogent ⚙️  by SOL Strategies
+[validator.metadata]
+level = "note"
+info = "Evidence for the SOL Strategies group that its details field cannot hold"
+details = "Group SOL Strategies: Withdraw authority 7TJjg7wY (of Laine ❤️  by SOL Strategies) stakes 111 SOL to Orangefin by SOL Strategies."
+sources = [
+  "https://explorer.solana.com/address/7TJjg7wYfd9stqMSX9PvjidLbr7Ug6UpSnuuEA8jVvHu",
+  "https://explorer.solana.com/address/orWTVSaxN11kEKKAs4wxcFs4My5vgX4UkrTjec7t6jt",
+  "https://get.art3mis.cloud/api/validators/STKEsvUSpD38eDxkAJN6cENMYfjVxieajVpmVVkgd1t",
+  "https://get.art3mis.cloud/api/validators/Cogent51kHgGLHr7zpkpRjGYFXM57LgjHjDdqXd4ypdA",
+  "https://get.art3mis.cloud/api/validators/LA1NEzryoih6CQW3gwQqJQffK2mKgnXcjSQZSRpM3wc",
+  "https://get.art3mis.cloud/api/validators/SSmBEooM7RkmyuXxuKgAhTvhQZ36Z3G2WsmLGJKoQLY",
+]
+
+[[validator]]
+vote = "avnu2RYyQbLL4LQnwi7ismwDNaegnXeUEzvZb2FUptF"  # AVNU
+[validator.metadata]
+level = "note"
+info = "Same machine as another validator at a hosting brand (co-tenancy)"
+details = "Same machine as Latitude.sh (72.46.87.239) in ip_change history 2025-10 to 2026-09-28: one of them is a hosting brand, so shared machines are expected; one operator is not established."
+sources = [
+  "https://get.art3mis.cloud/api/validators/avnujiRNoSRe9PcET42DPKznyfYnb2LRaZAsqv6REZo",
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=72.46.87.239",
+]
+credit = "ART3MIS (bigbrother.art3mis.cloud); same-machine method after Corvus Labs (gossip.solstack.app)"
+
+[[validator]]
+vote = "AuBB9st3RqhHBkzZgBSm6SVnHZNJQSHeBWCSkik4bzdA"  # Latitude.sh
+[validator.metadata]
+level = "note"
+info = "Same machine as another validator at a hosting brand (co-tenancy)"
+details = "Same machine as AVNU, Jaguar (185.189.46.66, 72.46.87.239) in ip_change history 2025-10 to 2026-09-28: one of them is a hosting brand, so shared machines are expected; one operator is not established."
+sources = [
+  "https://get.art3mis.cloud/api/validators/c3rtoMCHSbFrLRTAdw4iRowKSn4BrDtvSPbuyJwkHwx",
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=185.189.46.66",
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=72.46.87.239",
+]
+credit = "ART3MIS (bigbrother.art3mis.cloud); same-machine method after Corvus Labs (gossip.solstack.app)"
+
+[[validator]]
+vote = "jag77EXci8uf5uGmKE5izaYvxBCS5H9U2rxWYh8BUUf"  # Jaguar
+[validator.metadata]
+level = "note"
+info = "Same machine as another validator at a hosting brand (co-tenancy)"
+details = "Same machine as Latitude.sh (185.189.46.66) in ip_change history 2025-10 to 2026-09-28: one of them is a hosting brand, so shared machines are expected; one operator is not established."
+sources = [
+  "https://get.art3mis.cloud/api/validators/jagBNeXYncnn1hzwSq1JJ16XhWTgQ7DCFVqndSJZ6vT",
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=185.189.46.66",
+]
+credit = "ART3MIS (bigbrother.art3mis.cloud); same-machine method after Corvus Labs (gossip.solstack.app)"
+
+[[validator]]
+vote = "HdQ1Ap8wm6Mz65FaP8jMNBVfCDv5T9NdS8UTSvHmcotn"  # Moutai Validator 🚀 Performant, Secure and NO Fees
+[validator.metadata]
+level = "note"
+info = "Evidence for the Moutai Validator 🚀 Performant, Secure and NO Fees group that its details field cannot hold"
+details = "Group Moutai Validator 🚀 Performant, Secure and NO Fees: Withdraw authority G7zwjeFk (of Moutai Validator 🚀 Performant, Secure and NO Fees, U1S1 Validator 🚀 Performant, Secure and NO Fees) stakes 9,814 SOL to YYDS Validator 🚀 Performant, Secure and NO Fees."
+sources = [
+  "https://explorer.solana.com/address/G7zwjeFkb3YBLPYpxSVqNH6mJTuVe3gkfaNWA4Dw9irc",
+  "https://get.art3mis.cloud/api/validators/8nbE53mcKhy74HLiGZ1q5HRocwiCvgh49csSaHSdtukr",
+  "https://get.art3mis.cloud/api/validators/2Le6TjeEescF87qDA8Ftdz6U8Kq6SNVwoLJLhzBCHUr5",
+  "https://get.art3mis.cloud/api/validators/Xoir1BnQX9TbEvon9HRbD8tkjcD9dorsxmNjZAV64Re",
+  "https://solscan.io/account/G7zwjeFkb3YBLPYpxSVqNH6mJTuVe3gkfaNWA4Dw9irc",
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=91.134.84.57",
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=64.130.44.58",
+]
+
+[[validator]]
+vote = "Fe5zMqkmoYbwnXH9RHjFy7YMRnak9so2bzPBroPJ4iiX"  # U1S1 Validator 🚀 Performant, Secure and NO Fees
+[validator.metadata]
+level = "note"
+info = "Evidence for the Moutai Validator 🚀 Performant, Secure and NO Fees group that its details field cannot hold"
+details = "Group Moutai Validator 🚀 Performant, Secure and NO Fees: Withdraw authority G7zwjeFk (of U1S1 Validator 🚀 Performant, Secure and NO Fees, YYDS Validator 🚀 Performant, Secure and NO Fees) stakes 78,070 SOL to Moutai Validator 🚀 Performant, Secure and NO Fees."
+sources = [
+  "https://explorer.solana.com/address/G7zwjeFkb3YBLPYpxSVqNH6mJTuVe3gkfaNWA4Dw9irc",
+  "https://get.art3mis.cloud/api/validators/8nbE53mcKhy74HLiGZ1q5HRocwiCvgh49csSaHSdtukr",
+  "https://get.art3mis.cloud/api/validators/2Le6TjeEescF87qDA8Ftdz6U8Kq6SNVwoLJLhzBCHUr5",
+  "https://get.art3mis.cloud/api/validators/Xoir1BnQX9TbEvon9HRbD8tkjcD9dorsxmNjZAV64Re",
+  "https://solscan.io/account/G7zwjeFkb3YBLPYpxSVqNH6mJTuVe3gkfaNWA4Dw9irc",
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=91.134.84.57",
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=64.130.44.58",
+]
+
+[[validator]]
+vote = "33HZcdnvpGV4tshjmimFb5tweTmct1JW7eJpgy1xdM64"  # Solmate UAE
+[validator.metadata]
+level = "note"
+info = "Declares the same website as another validator"
+details = "Declares website solmate.com in validator-info, as Solmate - RockawayX powered does: whether one operator runs both is not established."
+sources = [
+  "https://get.art3mis.cloud/api/validators/sLmtRBsniDxRrGwHUBKQHnRyPQdX241u9GZWNHENNNZ",
+]
+
+[[validator]]
+vote = "6XiVWAyRpG7wGUQPVRd2XrYdgQVQyoQamd2J8XAmate"  # Solmate - RockawayX powered
+[validator.metadata]
+level = "note"
+info = "Declares the same website as another validator"
+details = "Declares website solmate.com in validator-info, as Solmate UAE does: whether one operator runs both is not established."
+sources = [
+  "https://get.art3mis.cloud/api/validators/t23p8aBQN6P6tziMuN5XPmzqVRrip9oes7KuQwSmate",
+]
+
+[[validator]]
+vote = "FoXyNdpkiQBsWgrYER43PcZ5rcpzMk8jGxN3NyEx5dmB"  # Famous Foxes
+[validator.metadata]
+level = "note"
+info = "Same machine as a hand-written group's members"
+details = "Same machine as Phase Stake group member Charity Soul (139.84.228.251) in ip_change history 2025-10 to 2026-09-28; operator link, not membership."
+sources = [
+  "https://get.art3mis.cloud/api/validators/FoXyHJXdQGK2eHoTjSAzHq4hzxWdJvpGgyzrtPS9eAk",
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=139.84.228.251",
+]
+credit = "ART3MIS (bigbrother.art3mis.cloud); same-machine method after Corvus Labs (gossip.solstack.app)"
+
+[[validator]]
+vote = "STevE9xVb1QfBHU4GgEn28r9oikAf5yxKJddF7fufwb"  # STEVE
+[validator.metadata]
+level = "note"
+info = "Same machine as a hand-written group's members"
+details = "Same machine as Phase Stake group members Blue Sky, Ded Monkes, Dust Eleven, Janitor (185.26.11.195, 67.213.113.101) in ip_change history 2025-10 to 2026-09-28; operator link, not membership."
+sources = [
+  "https://get.art3mis.cloud/api/validators/sTEVErNNwF2qPnV6DuNPkWpEyCt4UU6k2Y3Hyn7WUFu",
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=185.26.11.195",
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=67.213.113.101",
+]
+credit = "ART3MIS (bigbrother.art3mis.cloud); same-machine method after Corvus Labs (gossip.solstack.app)"
+
+[[validator]]
+vote = "eyeVhGmVEoPSWmQU2wP5WZmMihPBTCk7kMMm4VhuAKS"  # Eyenotion
+[validator.metadata]
+level = "note"
+info = "Same machine as a hand-written group's members"
+details = "Same machine as Phase Stake group members Blue Sky, Ded Monkes, Dust Eleven, Gleam (189.1.171.179, 67.213.113.101) in ip_change history 2025-10 to 2026-09-28; operator link, not membership."
+sources = [
+  "https://get.art3mis.cloud/api/validators/eyeYaqg9e2L6xw7YwsSLm27eWJfhLNAm6ETQm8TXNoK",
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=189.1.171.179",
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=67.213.113.101",
+]
+credit = "ART3MIS (bigbrother.art3mis.cloud); same-machine method after Corvus Labs (gossip.solstack.app)"
+
+[[validator]]
+vote = "hnhxfrndd827LET6jvnQV4aWqpS2EedaHcT4gj8ArSu"  # Hodl & Hodl LLLP
+[validator.metadata]
+level = "note"
+info = "Same machine as a hand-written group's members"
+details = "Same machine as Phase Stake group members Blue Sky, Dust Eleven, Epoch.Day, Gleam (189.1.171.179, 67.213.113.101) in ip_change history 2025-10 to 2026-09-28; operator link, not membership."
+sources = [
+  "https://get.art3mis.cloud/api/validators/hnhCMmnrmod4rcyc3QRKkLEC9XnPTvYJ2gBvjgFiV4o",
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=189.1.171.179",
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=67.213.113.101",
+]
+credit = "ART3MIS (bigbrother.art3mis.cloud); same-machine method after Corvus Labs (gossip.solstack.app)"
+
+[[validator]]
+vote = "1i1yax3thZfiV8id5HTA61bjsxEi4pbjmhXsqy6JePP"  # Lilith
+[validator.metadata]
+level = "note"
+info = "Same machine as a hand-written group's members"
+details = "Same machine as Phase Stake group members Ded Monkes, Dust Eleven, Epoch.Day, Gleam (189.1.171.177, 189.1.171.179) in ip_change history 2025-10 to 2026-09-28; operator link, not membership."
+sources = [
+  "https://get.art3mis.cloud/api/validators/1i1yPyh843bTfi5qPgqozTbDcEX65rUNEFcUT2KAs2i",
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=189.1.171.177",
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=189.1.171.179",
+]
+credit = "ART3MIS (bigbrother.art3mis.cloud); same-machine method after Corvus Labs (gossip.solstack.app)"
+
+[[validator]]
+vote = "CtzNnqzSLwNtkzi2yEWvq4w3GYQ5gSpCagqFZ5TbdSKb"  # Citizen Node
+[validator.metadata]
+level = "note"
+info = "Same machine as a hand-written group's members"
+details = "Same machine as Phase Stake group members Blue Sky, DSM-01, Dust Eleven, Epoch.Day (185.26.10.181, 185.26.11.195) in ip_change history 2025-10 to 2026-09-28; operator link, not membership."
+sources = [
+  "https://get.art3mis.cloud/api/validators/CtzN7ysR5rX69qd168Aosbuc83mPozhi81bEHbG7ecNP",
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=185.26.10.181",
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=185.26.11.195",
+]
+credit = "ART3MIS (bigbrother.art3mis.cloud); same-machine method after Corvus Labs (gossip.solstack.app)"
+
+[[validator]]
+vote = "21oUQzzytWh6y3G3SQ7ehktMh1RrbsJNA4R5pAMNyyrG"  # Range
+[validator.metadata]
+level = "note"
+info = "Same machine as a hand-written group's members; shares a gossip IP with another validator (co-tenancy)"
+details = "Same machine as Phase Stake group member Hydex (191.44.100.8) in ip_change history 2025-10 to 2026-09-28; operator link, not membership. Gossip IP 191.44.100.8 shared with South African Community Validator (stsaYQJUhKZDHSqndGtgo6jgbhVaHBSHhtfVWxCwrhD), Hydex (sTach38ebT8jnGH8i2D1g8NDAS6An19whVMnSSWPXt4) on 2026-09-28: co-tenancy, different withdraw authorities."
+sources = [
+  "https://get.art3mis.cloud/api/validators/sCANXAaS1a7yB8jz3USvGNLfd8DSc9r7TNzNSKKPkfY",
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=38.92.24.108",
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=5.199.172.156",
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=191.44.100.8",
+  "https://get.art3mis.cloud/api/validators/SaV6UWBaE8M3kwMBfAhQ6Tmvd2qdJRm94NTwLqtoyGd",
+  "https://get.art3mis.cloud/api/validators/stacheBmGG5zMKuetUevAbc4m4dLbve1VPcpSur3voH",
+]
+credit = "ART3MIS (bigbrother.art3mis.cloud); same-machine method after Corvus Labs (gossip.solstack.app)"
+
+[[validator]]
+vote = "chdv8H9fPfk2zFqSVaxRjsEo2qEDmswbju3BVgAHPNb"  # CH Dev
+[validator.metadata]
+level = "note"
+info = "Same machine as a hand-written group's members"
+details = "Same machine as Phase Stake group members DSM-01, Ded Monkes, Dust Eleven, Epoch.Day (160.202.131.193, 185.26.11.195) in ip_change history 2025-10 to 2026-09-28; operator link, not membership."
+sources = [
+  "https://get.art3mis.cloud/api/validators/chdvWr6T14nqGRFD37KY36dsvhkCtDaufW5rpu3AfHe",
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=160.202.131.193",
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=185.26.11.195",
+]
+credit = "ART3MIS (bigbrother.art3mis.cloud); same-machine method after Corvus Labs (gossip.solstack.app)"
+
+[[validator]]
+vote = "DCKYVqFDwUs5m2DhW9muK2EX86pootvWD8wXA4nSqDxU"  # Dicky
+[validator.metadata]
+level = "note"
+info = "Same machine as a hand-written group's members"
+details = "Same machine as Phase Stake group members Blue Sky, DSM-01, Ded Monkes, Dust Eleven (185.26.10.181, 67.213.113.101) in ip_change history 2025-10 to 2026-09-28; operator link, not membership."
+sources = [
+  "https://get.art3mis.cloud/api/validators/DCKyEmMENQMtLXgbmUoHRmgP9XdJ9HsR5WxrKnSDCzKA",
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=185.26.10.181",
+  "https://get.art3mis.cloud/api/history?event_type=ip_change&new_value=67.213.113.101",
+]
+credit = "ART3MIS (bigbrother.art3mis.cloud); same-machine method after Corvus Labs (gossip.solstack.app)"
+
+[[validator]]
+vote = "KESTRiqRhTuQo1MqU8TPevgkbSkGKKDrkcg8R5aNje9"
+[validator.metadata]
+level = "note"
+info = "Shares a gossip IP with another validator (co-tenancy)"
+details = "Gossip IP 2.57.215.186 shared with Dual Validator (CNcaYdqkCwxDpKSVK8in5f6kqrTiZ5SuHsHFDqx6jNvu) on 2026-09-28: co-tenancy, different withdraw authorities."
+sources = [
+  "https://get.art3mis.cloud/api/validators/KESTR4VhkALtPjwn4QLEErMB6vEmi8nyDo8JRqJ7KsH",
+  "https://get.art3mis.cloud/api/validators/sZAqxCSN5kkVfG2s65Bje4jzCkD2aLyk21qU95PMf2Y",
+]
+
+[[validator]]
+vote = "CNcaYdqkCwxDpKSVK8in5f6kqrTiZ5SuHsHFDqx6jNvu"  # Dual Validator
+[validator.metadata]
+level = "note"
+info = "Shares a gossip IP with another validator (co-tenancy)"
+details = "Gossip IP 2.57.215.186 shared with KESTRiqR (KESTRiqRhTuQo1MqU8TPevgkbSkGKKDrkcg8R5aNje9) on 2026-09-28: co-tenancy, different withdraw authorities."
+sources = [
+  "https://get.art3mis.cloud/api/validators/sZAqxCSN5kkVfG2s65Bje4jzCkD2aLyk21qU95PMf2Y",
+  "https://get.art3mis.cloud/api/validators/KESTR4VhkALtPjwn4QLEErMB6vEmi8nyDo8JRqJ7KsH",
+]
+
+[[validator]]
+vote = "2ve7kgjvaDZhMPq2nXhvGLno8sPJ8BAEdCvza384PyC8"  # DataHive AI | Missions
+[validator.metadata]
+level = "note"
+info = "Shares a gossip IP with another validator (co-tenancy)"
+details = "Gossip IP 104.204.142.206 shared with Blockchain at Emory (ySxF6XaSFSwU46iJbgyh2rAW5jagLbYULPtWvZCshrk) on 2026-09-28: co-tenancy, different withdraw authorities."
+sources = [
+  "https://get.art3mis.cloud/api/validators/7CR6whiYULVf1Knj4J5PxUS37opdk8UAx2WnDzBQKiVe",
+  "https://get.art3mis.cloud/api/validators/XAqHfPFsqTfAJHBRHAcEECkMSykXjkUj2Rta16Qshrk",
+]
+
+[[validator]]
+vote = "ySxF6XaSFSwU46iJbgyh2rAW5jagLbYULPtWvZCshrk"  # Blockchain at Emory
+[validator.metadata]
+level = "note"
+info = "Shares a gossip IP with another validator (co-tenancy)"
+details = "Gossip IP 104.204.142.206 shared with DataHive AI | Missions (2ve7kgjvaDZhMPq2nXhvGLno8sPJ8BAEdCvza384PyC8) on 2026-09-28: co-tenancy, different withdraw authorities."
+sources = [
+  "https://get.art3mis.cloud/api/validators/XAqHfPFsqTfAJHBRHAcEECkMSykXjkUj2Rta16Qshrk",
+  "https://get.art3mis.cloud/api/validators/7CR6whiYULVf1Knj4J5PxUS37opdk8UAx2WnDzBQKiVe",
+]
+
+[[validator]]
+vote = "RNXpSdqrJL6eoLrbW69Q9qsFviEwRpfFfk3HiRRRohq"  # RockawayX Firedancer
+[validator.metadata]
+level = "note"
+info = "Shares a gossip IP with another validator (co-tenancy)"
+details = "Gossip IP 195.12.227.249 shared with UNSTAKE / RE-DELEGATE (DZViGjfD4um4GQaNEE1h8tmWtMpgCW6qcvPBuHCyLwRX) on 2026-09-28: co-tenancy, different withdraw authorities."
+sources = [
+  "https://get.art3mis.cloud/api/validators/RNXnAJV1DeBt6Lytjz4wYzvS3d6bhsfidS5Np4ovwZz",
+  "https://get.art3mis.cloud/api/validators/DZVqmD4QqSWM2gUyEXdQhvt4u3NZtCRxdsn2n2nNiBRL",
+]
+
+[[validator]]
+vote = "DZViGjfD4um4GQaNEE1h8tmWtMpgCW6qcvPBuHCyLwRX"  # UNSTAKE / RE-DELEGATE
+[validator.metadata]
+level = "note"
+info = "Shares a gossip IP with another validator (co-tenancy)"
+details = "Gossip IP 195.12.227.249 shared with RockawayX Firedancer (RNXpSdqrJL6eoLrbW69Q9qsFviEwRpfFfk3HiRRRohq) on 2026-09-28: co-tenancy, different withdraw authorities."
+sources = [
+  "https://get.art3mis.cloud/api/validators/DZVqmD4QqSWM2gUyEXdQhvt4u3NZtCRxdsn2n2nNiBRL",
+  "https://get.art3mis.cloud/api/validators/RNXnAJV1DeBt6Lytjz4wYzvS3d6bhsfidS5Np4ovwZz",
+]
+
+[[validator]]
+vote = "FKU3YWq3AUuN2mJVR2pJgbsVQHdGeaK1Yj1iMBhJugd1"  # StakeBräu
+[validator.metadata]
+level = "note"
+info = "Shares a gossip IP with another validator (co-tenancy)"
+details = "Gossip IP 86.105.224.4 shared with SolanaBull 🚀 (FLCrbfbwEhFARa8nK9rnZw8BVtKNAuHujh9EhWy5A4U4) on 2026-09-28: co-tenancy, different withdraw authorities."
+sources = [
+  "https://get.art3mis.cloud/api/validators/BSNJGveGPVYzdt2bhTh3YfqbzWPH5Sq38zT1Br88Pn1N",
+  "https://get.art3mis.cloud/api/validators/CtvdyHYt8cMuGVHFarV2RADfoCdnrbd8e9jAsB225uMW",
+]
+
+[[validator]]
+vote = "FLCrbfbwEhFARa8nK9rnZw8BVtKNAuHujh9EhWy5A4U4"  # SolanaBull 🚀
+[validator.metadata]
+level = "note"
+info = "Shares a gossip IP with another validator (co-tenancy)"
+details = "Gossip IP 86.105.224.4 shared with StakeBräu (FKU3YWq3AUuN2mJVR2pJgbsVQHdGeaK1Yj1iMBhJugd1) on 2026-09-28: co-tenancy, different withdraw authorities."
+sources = [
+  "https://get.art3mis.cloud/api/validators/CtvdyHYt8cMuGVHFarV2RADfoCdnrbd8e9jAsB225uMW",
+  "https://get.art3mis.cloud/api/validators/BSNJGveGPVYzdt2bhTh3YfqbzWPH5Sq38zT1Br88Pn1N",
+]
+
+[[validator]]
+vote = "3Z1N2Fkfha4ThNiRwN8RnU6U8dkFJ92DH2TFyLWJf8cj"  # LumLabs
+[validator.metadata]
+level = "note"
+info = "Shares a gossip IP with another validator (co-tenancy)"
+details = "Gossip IP 104.204.142.28 shared with Udder Chaos 🐄 (ChaosDKeBjU22B4nnvYWXyTRPuWTzJBR4m3QPfBw6Tta) on 2026-09-28: co-tenancy, different withdraw authorities."
+sources = [
+  "https://get.art3mis.cloud/api/validators/9Wmaz9VPpEnH67ZqrvYd9bcH66DtsGaEKcSQE1ac5wkf",
+  "https://get.art3mis.cloud/api/validators/ChaossRPGKnsVhX1GfPC78yq5Sqju4cMThcAsKZNz5d6",
+]
+
+[[validator]]
+vote = "ChaosDKeBjU22B4nnvYWXyTRPuWTzJBR4m3QPfBw6Tta"  # Udder Chaos 🐄
+[validator.metadata]
+level = "note"
+info = "Shares a gossip IP with another validator (co-tenancy)"
+details = "Gossip IP 104.204.142.28 shared with LumLabs (3Z1N2Fkfha4ThNiRwN8RnU6U8dkFJ92DH2TFyLWJf8cj) on 2026-09-28: co-tenancy, different withdraw authorities."
+sources = [
+  "https://get.art3mis.cloud/api/validators/ChaossRPGKnsVhX1GfPC78yq5Sqju4cMThcAsKZNz5d6",
+  "https://get.art3mis.cloud/api/validators/9Wmaz9VPpEnH67ZqrvYd9bcH66DtsGaEKcSQE1ac5wkf",
+]
+
+[[validator]]
+vote = "AGXZemZbyZjz5NBhufcob2pf8AXnr9HaGFUGNCfooWrB"  # RockX
+[validator.metadata]
+level = "note"
+info = "Shares a gossip IP with another validator (co-tenancy)"
+details = "Gossip IP 46.166.162.131 shared with Hamsa (8uEgdseqbUrDLfmHbUpTHoH1LLRxeViYDk7K6NdXKRYM) on 2026-09-28: co-tenancy, different withdraw authorities."
+sources = [
+  "https://get.art3mis.cloud/api/validators/BZBKHmW1DhBaAPojxWBQ26vGz42Y7MtNviFZWpc6nGLb",
+  "https://get.art3mis.cloud/api/validators/CwyVpfmfSiMeCexi3JgUNvaiDfYN14cLDjzT99zcBuD2",
+]
+
+[[validator]]
+vote = "8uEgdseqbUrDLfmHbUpTHoH1LLRxeViYDk7K6NdXKRYM"  # Hamsa
+[validator.metadata]
+level = "note"
+info = "Shares a gossip IP with another validator (co-tenancy)"
+details = "Gossip IP 46.166.162.131 shared with RockX (AGXZemZbyZjz5NBhufcob2pf8AXnr9HaGFUGNCfooWrB) on 2026-09-28: co-tenancy, different withdraw authorities."
+sources = [
+  "https://get.art3mis.cloud/api/validators/CwyVpfmfSiMeCexi3JgUNvaiDfYN14cLDjzT99zcBuD2",
+  "https://get.art3mis.cloud/api/validators/BZBKHmW1DhBaAPojxWBQ26vGz42Y7MtNviFZWpc6nGLb",
+]
+
+[[validator]]
+vote = "stsaYQJUhKZDHSqndGtgo6jgbhVaHBSHhtfVWxCwrhD"  # South African Community Validator
+[validator.metadata]
+level = "note"
+info = "Shares a gossip IP with another validator (co-tenancy)"
+details = "Gossip IP 191.44.100.8 shared with Range (21oUQzzytWh6y3G3SQ7ehktMh1RrbsJNA4R5pAMNyyrG), Hydex (sTach38ebT8jnGH8i2D1g8NDAS6An19whVMnSSWPXt4) on 2026-09-28: co-tenancy, different withdraw authorities."
+sources = [
+  "https://get.art3mis.cloud/api/validators/SaV6UWBaE8M3kwMBfAhQ6Tmvd2qdJRm94NTwLqtoyGd",
+  "https://get.art3mis.cloud/api/validators/sCANXAaS1a7yB8jz3USvGNLfd8DSc9r7TNzNSKKPkfY",
+  "https://get.art3mis.cloud/api/validators/stacheBmGG5zMKuetUevAbc4m4dLbve1VPcpSur3voH",
+]
+
+[[validator]]
+vote = "SPHEREcukWjz5VUiGU7Kh3fWeN4neyNw1ma2qQHXmrH"  # Sphere
+[validator.metadata]
+level = "note"
+info = "Shares a gossip IP with another validator (co-tenancy)"
+details = "Gossip IP 185.191.117.158 shared with Titan Analytics (EBVj3uwSKZpqEb1K267JaPxDQhULVqCy6hYeQqjsPh81) on 2026-09-28: co-tenancy, different withdraw authorities."
+sources = [
+  "https://get.art3mis.cloud/api/validators/SPHERExTW7GaMgS4RN6MbghYvXU2REfFWHgpxMH1P69",
+  "https://get.art3mis.cloud/api/validators/43Am3PKFeo9cACpqYL5Sk95rpVdxLw3Mc22PqRqZXEW2",
+]
+
+[[validator]]
+vote = "EBVj3uwSKZpqEb1K267JaPxDQhULVqCy6hYeQqjsPh81"  # Titan Analytics
+[validator.metadata]
+level = "note"
+info = "Shares a gossip IP with another validator (co-tenancy)"
+details = "Gossip IP 185.191.117.158 shared with Sphere (SPHEREcukWjz5VUiGU7Kh3fWeN4neyNw1ma2qQHXmrH) on 2026-09-28: co-tenancy, different withdraw authorities."
+sources = [
+  "https://get.art3mis.cloud/api/validators/43Am3PKFeo9cACpqYL5Sk95rpVdxLw3Mc22PqRqZXEW2",
+  "https://get.art3mis.cloud/api/validators/SPHERExTW7GaMgS4RN6MbghYvXU2REfFWHgpxMH1P69",
+]
+
+[[validator]]
+vote = "prt1s9dMM15LdsUX9HugajzqPB5WVN8a2mw3frAiCfj"  # Portals
+[validator.metadata]
+level = "note"
+info = "Shares a gossip IP with another validator (co-tenancy)"
+details = "Gossip IP 67.213.122.35 shared with Gojira (goJiRADNdmfnJ4iWEyft7KaYMPTVsRba2Ee1akDEBXb) on 2026-09-28: co-tenancy, different withdraw authorities."
+sources = [
+  "https://get.art3mis.cloud/api/validators/prt1st4RSxAt32ams4zsXCe1kavzmKeoR7eh1sdYRXW",
+  "https://get.art3mis.cloud/api/validators/gojir4WnhS7VS1JdbnanJMzaMfr4UD7KeX1ixWAHEmw",
+]
+
+[[validator]]
+vote = "EARNynHRWg6GfyJCmrrizcZxARB3HVzcaasvNa8kBS72"  # Solana Compass 🧭 Solana For The People
+[validator.metadata]
+level = "note"
+info = "Withdraw authority wallet delegates to another validator (relationship only)"
+details = "Withdraw authority NMnh1gSaTYLhZjadfJ5haaj4wGSVRnTGk1gXjTgMpfe stakes 1 SOL to Staking Facilities | MEV 🔥 (DumiCKHVqoCQKD8roLApzR5Fit8qGV5fVQsJV9sTZk4a) on 2026-09-28: a relationship, not proof of common operation. Withdraw authority NMnh1gSaTYLhZjadfJ5haaj4wGSVRnTGk1gXjTgMpfe stakes 1 SOL to Jito3 / BONK - DECOMMISSIONING (J1to3PQfXidUUhprQWgdKkQAMWPJAEqSJ7amkBDE9qhF) on 2026-09-28: a relationship, not proof of common operation."
+sources = [
+  "https://get.art3mis.cloud/api/validators/CMPSSdrTnRQBiBGTyFpdCc3VMNuLWYWaSkE8Zh5z6gbd",
+  "https://explorer.solana.com/address/NMnh1gSaTYLhZjadfJ5haaj4wGSVRnTGk1gXjTgMpfe",
+]
+
+[[validator]]
+vote = "DMSuZcavta8L1w1tSiH8bALWjz6Q6KSryGG6m6Az4Qt5"  # Lion3d | 0% Forever + Block Rewards Sharing
+[validator.metadata]
+level = "note"
+info = "Withdraw authority wallet delegates to another validator (relationship only)"
+details = "Withdraw authority AHPYKqvvnZd1ndQqq9oawizHCbTZ8m8fvQQvW5c8peRG stakes 21,147 SOL to Next Finance Tech (gfR2VCrsVcm1gF2teasQpP6BdX99mVVFhEQck3UhTNC) on 2026-09-28: a relationship, not proof of common operation."
+sources = [
+  "https://get.art3mis.cloud/api/validators/CVvaeDPR2o7P1eawG5c9TPFLzSXAewwPovPmREaEL4Cm",
+  "https://explorer.solana.com/address/AHPYKqvvnZd1ndQqq9oawizHCbTZ8m8fvQQvW5c8peRG",
+]
+
+[[validator]]
+vote = "FACqsS19VScz8oo2YhdMg35EsAy6xsCZ9Y58eJXGv8QJ"  # Lantern
+[validator.metadata]
+level = "note"
+info = "Withdraw authority wallet delegates to another validator (relationship only)"
+details = "Withdraw authority CFp5kK1fDwuAdn1vzyK4RqKsfJ9SUd97w6zNVnLJTQHp stakes 1 SOL to Kiln1 (DdCNGDpP7qMgoAy6paFzhhak2EeyCZcgjH7ak5u5v28m) on 2026-09-28: a relationship, not proof of common operation. Withdraw authority CFp5kK1fDwuAdn1vzyK4RqKsfJ9SUd97w6zNVnLJTQHp stakes 1 SOL to Bybit Staking (8hPk5CbKDoM7dN9LssTdVkFhDykeq7A8CZurA5AQSFJH) on 2026-09-28: a relationship, not proof of common operation."
+sources = [
+  "https://get.art3mis.cloud/api/validators/FACb6bbTDRBHCK999V8ox8jga5JBnt1r3vvzmAYAMv2o",
+  "https://explorer.solana.com/address/CFp5kK1fDwuAdn1vzyK4RqKsfJ9SUd97w6zNVnLJTQHp",
+]
+
+[[validator]]
+vote = "3a2onvgTpGynakAQwx6gigtSeL7itZewNxqb5JiAvWeA"  # cp0x_by_STAKRspace
+[validator.metadata]
+level = "note"
+info = "Withdraw authority wallet delegates to another validator (relationship only)"
+details = "Withdraw authority 9hMq9E6NqKr3u2WkLUqT9scmvuG9Xw7NmCsHpbN5Ca4X stakes 20 SOL to Tramplin (TRAMp1Z9EXyWQQNwNjjoNvVksMUHKioVU7ky61yNsEq) on 2026-09-28: a relationship, not proof of common operation."
+sources = [
+  "https://get.art3mis.cloud/api/validators/E9hD3ikumJx1GVswDjnpCt6Uu4WG5mz1PDWCqdE5uhmo",
+  "https://explorer.solana.com/address/9hMq9E6NqKr3u2WkLUqT9scmvuG9Xw7NmCsHpbN5Ca4X",
+]
+
+[[validator]]
+vote = "sfo5vA1fFdPRsvqd8qdePtTnK97Qj6Jj3GupEzmNPjJ"  # soltop.sh
+[validator.metadata]
+level = "note"
+info = "Withdraw authority wallet delegates to another validator (relationship only)"
+details = "Withdraw authority 8XnL2SJqBPV2HAybGWNKvRFM99mTK9ztdHz6ovYEu9N4 stakes 51 SOL to Everstake (9QU2QSxhb24FUX3Tu2FpczXjpK3VYrvRudywSZaM29mF) on 2026-09-28: a relationship, not proof of common operation."
+sources = [
+  "https://get.art3mis.cloud/api/validators/sfvTq7ojrEc5WdXcHijz676eX1pc5MgoLxbkYSdRDAB",
+  "https://explorer.solana.com/address/8XnL2SJqBPV2HAybGWNKvRFM99mTK9ztdHz6ovYEu9N4",
+]
+
+[[validator]]
+vote = "drXsaoxWGkvjEUveMpbS1RVQmtZ7y1kb9E4YERJxCFt"
+[validator.metadata]
+level = "note"
+info = "Withdraw authority wallet delegates to another validator (relationship only)"
+details = "Withdraw authority EcH12jxhrbhF6qHqRzWpZ8rZU3TjG3sX6F67zP61oDJG (also the withdraw authority of 54DYhq7Y) stakes 125,690 SOL to Asymmetric Research (CertusDeBmqN8ZawdkxK5kFGMwBXdudvWHYwtNgNhvLu) on 2026-09-28: a relationship, not proof of common operation."
+sources = [
+  "https://get.art3mis.cloud/api/validators/6DTkuiey2RgMaBPC32dx2YpRKoNVfL19WdwBYih5SkVw",
+  "https://explorer.solana.com/address/EcH12jxhrbhF6qHqRzWpZ8rZU3TjG3sX6F67zP61oDJG",
+]
+
+[[validator]]
+vote = "2QE9X9X4tdDUTYic1DgBBJjU7cWUNPbKYGerCb9KqDQN"  # val37
+[validator.metadata]
+level = "note"
+info = "Withdraw authority wallet delegates to another validator (relationship only)"
+details = "Withdraw authority 25j9Sij6juA43DBd27psyvtxpy6TzPefVVgfiSNjQE84 stakes 26 SOL to OranG3cluB (AY271jdvcyo5VzBiWsMGLEjpZFFrarq8FDydJHLmYgCG) on 2026-09-28: a relationship, not proof of common operation."
+sources = [
+  "https://get.art3mis.cloud/api/validators/CpuDNi3iVoHXbaT8gHpzKe6rqeBasoYjEKi21q7NRVJS",
+  "https://explorer.solana.com/address/25j9Sij6juA43DBd27psyvtxpy6TzPefVVgfiSNjQE84",
+]
+
+[[validator]]
+vote = "8B2Z2R8dRvqFcXuLBwinu3Jq7HQidCaJCnDuRRqeJLC1"  # Watatsumi Validator
+[validator.metadata]
+level = "note"
+info = "Withdraw authority wallet delegates to another validator (relationship only)"
+details = "Withdraw authority 6eH2SDgPUujNZNDbdMKxN1PWEBTbxfivi83SX9gkvSPV stakes 12,614 SOL to Lion3d | 0% Forever + Block Rewards Sharing (DMSuZcavta8L1w1tSiH8bALWjz6Q6KSryGG6m6Az4Qt5) on 2026-09-28: a relationship, not proof of common operation."
+sources = [
+  "https://get.art3mis.cloud/api/validators/5ZjxMYBbnKd4VFxLjAChSWMTeQ96147HnxZvQJxUseHV",
+  "https://explorer.solana.com/address/6eH2SDgPUujNZNDbdMKxN1PWEBTbxfivi83SX9gkvSPV",
+]
+
+[[validator]]
+vote = "SQDSVTDfE5HqL7D6RjZk1vvZhaheWoskrDdDHCki68w"  # Squads
+[validator.metadata]
+level = "note"
+info = "One Squads signer shared with another validator"
+details = "One Squads signer (6PDVx8ehuwBuoEwvmi6v56DzPzm96a9YiNH4kG4Rb7Dw) shared with Paragon (VotESBSkLKU8vebS6wTR2rzWWJsLc6YThYS6tebPxXq); other signers differ."
+sources = [
+  "https://get.art3mis.cloud/api/validators/SQDS9iwyWvT2mQbSZzuNKGoxuBug5jRHouF6SuMRBkA",
+  "https://explorer.solana.com/address/6PDVx8ehuwBuoEwvmi6v56DzPzm96a9YiNH4kG4Rb7Dw",
+]
+credit = "ART3MIS (bigbrother.art3mis.cloud); Squads-signer method after Corvus Labs (gossip.solstack.app)"
+
+[[validator]]
+vote = "VotESBSkLKU8vebS6wTR2rzWWJsLc6YThYS6tebPxXq"  # Paragon
+[validator.metadata]
+level = "note"
+info = "One Squads signer shared with another validator"
+details = "One Squads signer (6PDVx8ehuwBuoEwvmi6v56DzPzm96a9YiNH4kG4Rb7Dw) shared with Squads (SQDSVTDfE5HqL7D6RjZk1vvZhaheWoskrDdDHCki68w); other signers differ."
+sources = [
+  "https://get.art3mis.cloud/api/validators/PRGNnb8DxVcP2WjSHfVRGgc8SkA5u6dbMwoTVV1BGKN",
+  "https://explorer.solana.com/address/6PDVx8ehuwBuoEwvmi6v56DzPzm96a9YiNH4kG4Rb7Dw",
+]
+credit = "ART3MIS (bigbrother.art3mis.cloud); Squads-signer method after Corvus Labs (gossip.solstack.app)"
+
+[[validator]]
+vote = "CHiaohVV2SQCFhiYP73iQzWT6HxnZqnAZJJqAYTeLAo"  # The Chimpions
+[validator.metadata]
+level = "note"
+info = "One Squads signer shared with another validator"
+details = "One Squads signer (93XpqG6JBqgazLfRZeLumfQfwbwWpL1FhVL3nuoyyese) shared with Adrastea Validator (adraBKLNY3DL3pg6SJRDYiMA8BsznaWpUdE42X41gbP); other signers differ."
+sources = [
+  "https://get.art3mis.cloud/api/validators/2AKKnirWVZMhnzuwqpizw9SwfZjGpRFLx2zCCNtPWpbc",
+  "https://explorer.solana.com/address/93XpqG6JBqgazLfRZeLumfQfwbwWpL1FhVL3nuoyyese",
+]
+credit = "ART3MIS (bigbrother.art3mis.cloud); Squads-signer method after Corvus Labs (gossip.solstack.app)"
+
+[[validator]]
+vote = "adraBKLNY3DL3pg6SJRDYiMA8BsznaWpUdE42X41gbP"  # Adrastea Validator
+[validator.metadata]
+level = "note"
+info = "One Squads signer shared with another validator"
+details = "One Squads signer (93XpqG6JBqgazLfRZeLumfQfwbwWpL1FhVL3nuoyyese) shared with The Chimpions (CHiaohVV2SQCFhiYP73iQzWT6HxnZqnAZJJqAYTeLAo); other signers differ."
+sources = [
+  "https://get.art3mis.cloud/api/validators/adramSYKBv1yHoZTub4kepcmF5LybPxwyJcsz4fpfi7",
+  "https://explorer.solana.com/address/93XpqG6JBqgazLfRZeLumfQfwbwWpL1FhVL3nuoyyese",
+]
+credit = "ART3MIS (bigbrother.art3mis.cloud); Squads-signer method after Corvus Labs (gossip.solstack.app)"
