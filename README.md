@@ -44,7 +44,7 @@ Same fields for `[[group]]` and `[[validator]]` entries:
 | `details` | no | one paragraph without line breaks, 500 characters max |
 | `sources` | no | non-empty list of `https://` links (300 characters max each) that let anyone verify the claim |
 | `credit` | no | who found it, 120 characters max |
-| any other | no | e.g. `website`: text or a non-empty list of texts, 500 characters max each; name in lowercase letters, digits and `_`, 32 max |
+| `other` | no | e.g. `website`: text or a non-empty list of texts, 500 characters max each; name in lowercase letters, digits and `_`, 32 max |
 
 Plain text only: no control or invisible characters, no nested tables. At most 10 extra fields
 per entry and 20 items per list.
